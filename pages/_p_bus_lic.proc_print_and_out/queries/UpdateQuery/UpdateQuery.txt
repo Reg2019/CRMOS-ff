@@ -1,0 +1,10 @@
+UPDATE _p_bus_lic."proc_print_and_out" SET
+		"gosnumber_denorm" = '{{update_form.fieldState.gosnumber_denorm.isVisible ? update_form.formData.gosnumber_denorm : update_form.sourceData.gosnumber_denorm}}',
+		"datetime" = '{{update_form.fieldState.datetime.isVisible ? update_form.formData.datetime : update_form.sourceData.datetime}}',
+    "bus_owner_denorm" = '{{update_form.fieldState.bus_owner_denorm.isVisible ? update_form.formData.bus_owner_denorm : update_form.sourceData.bus_owner_denorm}}',
+		"datetime_printed" = '{{update_form.fieldState.datetime_printed.isVisible ? update_form.formData.datetime_printed : update_form.sourceData.datetime_printed}}',
+		"datetime_out" = '{{update_form.fieldState.datetime_out.isVisible ? update_form.formData.datetime_out : update_form.sourceData.datetime_out}}',
+		"rem" = '{{update_form.fieldState.rem.isVisible ? update_form.formData.rem : update_form.sourceData.rem}}',
+		"sequence_number" = '{{update_form.fieldState.sequence_number.isVisible ? update_form.formData.sequence_number : update_form.sourceData.sequence_number}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}'
+WHERE "id" = {{data_table.selectedRow.id}};

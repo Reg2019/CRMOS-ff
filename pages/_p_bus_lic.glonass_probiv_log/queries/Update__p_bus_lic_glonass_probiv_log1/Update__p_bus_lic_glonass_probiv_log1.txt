@@ -1,0 +1,1 @@
+UPDATE _p_bus_lic.glonass_probiv_log SET "date_create"= '{{Table1.updatedRow.date_create}}', "text_of_answer"= '{{Table1.updatedRow.text_of_answer}}', "bus_id"= '{{Table1.updatedRow.bus_id}}', "rem"= '{{Table1.updatedRow.rem}}', "created_at"= '{{Table1.updatedRow.created_at}}' WHERE "id"= {{Table1.updatedRow.id}};

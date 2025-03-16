@@ -1,0 +1,2 @@
+DELETE FROM _p_bus_lic."_f_tables_of_in_out_ugadn_csv"
+  WHERE "date_create" = {{data_table.triggeredRow.date_create}};

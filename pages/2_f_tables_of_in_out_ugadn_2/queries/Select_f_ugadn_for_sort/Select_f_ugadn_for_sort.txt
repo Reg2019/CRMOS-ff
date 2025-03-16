@@ -1,0 +1,3 @@
+SELECT * 
+FROM "_p_bus_lic"."_f_tables_of_in_out_ugadn_csv"
+ORDER BY date_create DESC;

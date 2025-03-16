@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  _p_bus_lic._f_tables_of_in_out_ugadn_csv
+WHERE
+  "gosnum" ilike '%{{table_f_ug.searchText}}%' {{table_f_ug.sortOrder.column ? "ORDER BY " + table_f_ug.sortOrder.column + "  " + (table_f_ug.sortOrder.order !== "desc" ? "" : "DESC") : ""}}
+LIMIT
+  {{table_f_ug.pageSize}}
+OFFSET
+  {{table_f_ug.pageOffset}}

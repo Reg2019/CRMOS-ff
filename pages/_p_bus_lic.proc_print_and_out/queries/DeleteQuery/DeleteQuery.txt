@@ -1,0 +1,2 @@
+DELETE FROM _p_bus_lic."proc_print_and_out"
+  WHERE "id" = {{data_table.triggeredRow.id}};

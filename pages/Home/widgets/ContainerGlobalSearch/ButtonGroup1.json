@@ -1,0 +1,213 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 51,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonkegwxqhm6x.buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton2j3oxqhh6d.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconName": "star",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Оперативка",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "disabledWhenInvalid": false,
+      "iconName": "add",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Добавить",
+      "menuItems": {
+        "menuItem8tavqwyhso": {
+          "iconName": "new-person",
+          "id": "menuItem8tavqwyhso",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Новый заказчик позвонил",
+          "widgetId": "2q0sy45h7a"
+        },
+        "menuItemckpq9o3jpc": {
+          "iconName": "person",
+          "id": "menuItemckpq9o3jpc",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Новый заказ от старого перевозчика",
+          "widgetId": "7rf0k0er07"
+        },
+        "menuItemh5qwlz8d6c": {
+          "id": "menuItemh5qwlz8d6c",
+          "index": 3,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Menu Item",
+          "widgetId": "mchzub3uzh"
+        },
+        "menuItemqsc9g2o83f": {
+          "iconName": "add-row-top",
+          "id": "menuItemqsc9g2o83f",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Новый контакт",
+          "widgetId": "k5msygap4v"
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2j3oxqhh6d": {
+      "buttonColor": "#7b5f81",
+      "buttonType": "SIMPLE",
+      "iconName": "panel-table",
+      "id": "groupButton2j3oxqhh6d",
+      "index": 4,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Таблицы БД",
+      "menuItems": {},
+      "onClick": "{{navigateTo('_p_bus_lic.proc_print_and_out', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "i7sg5ede60"
+    },
+    "groupButton3": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "disabledWhenInvalid": false,
+      "iconName": "control",
+      "id": "groupButton3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Контакты",
+      "menuItems": {
+        "menuItem1": {
+          "backgroundColor": "#dcfce7",
+          "disabledWhenInvalid": false,
+          "iconName": "add",
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Новый контакт",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem2": {
+          "backgroundColor": "#fef9c3",
+          "disabledWhenInvalid": false,
+          "iconAlign": "left",
+          "iconName": "search",
+          "id": "menuItem2",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Поиск",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem3": {
+          "backgroundColor": "#DD4B34",
+          "disabledWhenInvalid": false,
+          "iconAlign": "left",
+          "iconColor": "#FFFFFF",
+          "iconName": "trash",
+          "id": "menuItem3",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Удалить",
+          "onClick": "",
+          "textColor": "#FFFFFF",
+          "widgetId": ""
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtonkegwxqhm6x": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "calendar",
+      "id": "groupButtonkegwxqhm6x",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Дела",
+      "menuItems": {},
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "puz35a4kc4"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lte410aydl",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 21,
+  "needsErrorInfo": false,
+  "orientation": "vertical",
+  "originalBottomRow": 51,
+  "originalTopRow": 34,
+  "parentColumnSpace": 14.59375,
+  "parentId": "ca0ovjzo9j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 34,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "xzikmpdn8j",
+  "widgetName": "ButtonGroup1"
+}

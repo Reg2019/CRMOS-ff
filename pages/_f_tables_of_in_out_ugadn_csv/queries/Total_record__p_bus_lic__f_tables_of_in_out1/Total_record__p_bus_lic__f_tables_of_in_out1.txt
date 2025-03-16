@@ -1,0 +1,1 @@
+SELECT COUNT(*) from _p_bus_lic._f_tables_of_in_out_ugadn_csv where gosnum ilike '%{{table_f_ug.searchText}}%';

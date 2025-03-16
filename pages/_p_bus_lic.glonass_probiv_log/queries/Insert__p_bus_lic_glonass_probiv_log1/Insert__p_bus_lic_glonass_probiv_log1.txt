@@ -1,0 +1,1 @@
+INSERT INTO _p_bus_lic.glonass_probiv_log ("date_create","text_of_answer","bus_id","rem","created_at") VALUES ('{{(Table1.newRow || {}).date_create}}','{{(Table1.newRow || {}).text_of_answer}}','{{(Table1.newRow || {}).bus_id}}','{{(Table1.newRow || {}).rem}}','{{(Table1.newRow || {}).created_at}}')

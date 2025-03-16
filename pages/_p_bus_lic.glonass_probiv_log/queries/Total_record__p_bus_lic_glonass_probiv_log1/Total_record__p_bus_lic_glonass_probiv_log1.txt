@@ -1,0 +1,1 @@
+SELECT COUNT(*) from _p_bus_lic.glonass_probiv_log where text_of_answer ilike '%{{Table1.searchText}}%';

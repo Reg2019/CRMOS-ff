@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  _p_bus_lic.glonass_probiv_log
+WHERE
+  "text_of_answer" ilike '%{{Table1.searchText}}%'
+ORDER BY
+  "{{Table1.sortOrder.column || 'id'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

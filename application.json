@@ -1,0 +1,90 @@
+{
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#C7F3F0",
+  "evaluationVersion": 2,
+  "icon": "saturn",
+  "pages": [
+    {
+      "id": "Home",
+      "isDefault": true
+    },
+    {
+      "id": "ALL",
+      "isDefault": false
+    },
+    {
+      "id": "BUS",
+      "isDefault": false
+    },
+    {
+      "id": "BUS LIC",
+      "isDefault": false
+    },
+    {
+      "id": "BUS LIC v1",
+      "isDefault": false
+    },
+    {
+      "id": "_f_tables_of_in_out_ugadn_csv",
+      "isDefault": false
+    },
+    {
+      "id": "2_f_tables_of_in_out_ugadn_2",
+      "isDefault": false
+    },
+    {
+      "id": "test-s3-2 Copy Copy",
+      "isDefault": false
+    },
+    {
+      "id": "_p_bus_lic.proc_print_and_out",
+      "isDefault": false
+    },
+    {
+      "id": "_p_bus_lic.glonass_probiv_log",
+      "isDefault": false
+    }
+  ],
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}
