@@ -13,6 +13,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -30,7 +35,7 @@
   "mobileRightColumn": 8,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{resetWidget(\"TabsHomePage\", true);}}",
+  "onClick": "select_proc_print_and_out.run();\n",
   "parentColumnSpace": 13.361083984375,
   "parentId": "sqdwzb0nho",
   "parentRowSpace": 10,
