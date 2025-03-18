@@ -36,15 +36,14 @@
     "date_sign",
     "date_sent",
     "date_added_reestr",
-    "rem",
-    "customColumn1"
+    "rem"
   ],
   "columnSizeMap": {
     "status": 75,
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1741797142857,
+  "columnUpdatedAt": 1742338814837,
   "columnWidthMap": {
     "gosnum": 148
   },
@@ -142,9 +141,6 @@
   ],
   "dynamicPropertyPathList": [
     {
-      "key": "primaryColumns.customColumn1.borderRadius"
-    },
-    {
       "key": "primaryColumns.date_create.outputFormat"
     },
     {
@@ -203,40 +199,6 @@
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
   "primaryColumns": {
-    "customColumn1": {
-      "alias": "customColumn1",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "switch",
-      "computedValue": "",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "customColumn1",
-      "index": 10,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": true,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "customColumn1",
-      "labelColor": "#FFFFFF",
-      "notation": "standard",
-      "originalId": "customColumn1",
-      "selectOptions": "",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "date_added_reestr": {
       "alias": "date_added_reestr",
       "allowCellWrapping": false,
