@@ -5,7 +5,7 @@
   "borderColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 86,
+  "bottomRow": 69,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -251,41 +251,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
-    },
-    {
-      "key": "isVisible"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "onSubmit"
-    },
-    {
-      "key": "schema.__root_schema__.children.date_create.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.rf_mg.labelTextColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.date_sign.dateFormat"
-    },
-    {
-      "key": "schema.__root_schema__.children.date_sent.dateFormat"
-    },
-    {
-      "key": "schema.__root_schema__.children.date_added_reestr.dateFormat"
-    },
-    {
-      "key": "schema.__root_schema__.children.date_added_reestr.minDate"
-    },
-    {
-      "key": "schema.__root_schema__.children.date_added_reestr.maxDate"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
@@ -299,12 +265,12 @@
   "isVisible": "{{!!table_f_ug.selectedRow.date_create}}",
   "key": "h9l9ozr8op",
   "labelTextSize": "0.875rem",
-  "leftColumn": 39,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
   "parentColumnSpace": 16.3125,
-  "parentId": "0",
+  "parentId": "y5gnkk8gg6",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetButtonLabel": "Reset",
@@ -659,9 +625,9 @@
     "buttonVariant": "PRIMARY"
   },
   "title": "Update Row date_create: {{table_f_ug.selectedRow.date_create}}",
-  "topRow": 0,
+  "topRow": 1,
   "type": "JSON_FORM_WIDGET",
   "version": 1,
-  "widgetId": "y5cjzuxnb3",
-  "widgetName": "update_form"
+  "widgetId": "j7isik6v6c",
+  "widgetName": "update_formCopy"
 }
