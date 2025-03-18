@@ -1,1 +1,0 @@
-SELECT * FROM _all."__inbox_data" LIMIT 10;

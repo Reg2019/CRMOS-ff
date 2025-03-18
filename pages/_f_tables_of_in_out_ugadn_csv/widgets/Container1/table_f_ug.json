@@ -80,9 +80,6 @@
   "displayName": "Table",
   "dynamicBindingPathList": [
     {
-      "key": "tableData"
-    },
-    {
       "key": "derivedColumns.customColumn1.buttonLabel"
     },
     {
@@ -138,6 +135,9 @@
     },
     {
       "key": "totalRecordsCount"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -683,7 +683,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{Select__p_bus_lic__f_tables_of_in_out1.data}}",
+  "tableData": "{{selectName.run();}}",
   "textSize": "0.875rem",
   "topRow": 6,
   "totalRecordsCount": "{{Total_record__p_bus_lic__f_tables_of_in_out1.data[0].count}}",
