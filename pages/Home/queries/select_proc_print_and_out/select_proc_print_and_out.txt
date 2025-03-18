@@ -1,1 +1,4 @@
-SELECT * FROM "_p_bus_lic".proc_print_and_out LIMIT 1000;
+SELECT * 
+FROM "_p_bus_lic".proc_print_and_out 
+ORDER BY datetime DESC
+LIMIT 1000;

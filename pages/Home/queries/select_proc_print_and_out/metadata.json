@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM \"_p_bus_lic\".proc_print_and_out LIMIT 1000;",
+      "body": "SELECT * \nFROM \"_p_bus_lic\".proc_print_and_out \nORDER BY datetime DESC\nLIMIT 1000;\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
