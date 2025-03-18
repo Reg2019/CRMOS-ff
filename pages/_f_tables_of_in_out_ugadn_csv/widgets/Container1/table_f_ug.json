@@ -164,6 +164,9 @@
     },
     {
       "key": "primaryColumns.date_added_reestr.outputFormat"
+    },
+    {
+      "key": "primaryColumns.date_sent.outputFormat"
     }
   ],
   "dynamicTriggerPathList": [
@@ -331,6 +334,7 @@
       "label": "Дата отправки",
       "notation": "standard",
       "originalId": "date_sent",
+      "outputFormat": "DD-MM-YYYY",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
