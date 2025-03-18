@@ -28,12 +28,12 @@
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
   "rightColumn": 54,
-  "text": "_p_bus_lic__f_tables_of_in_out_ugadn_csv Data",
+  "text": "_p_bus_lic__f_tables_of_in_out_ugadn_csv",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "urzv99hdc8",
-  "widgetName": "Text16"
+  "widgetName": "TextHeader"
 }

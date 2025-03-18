@@ -29,6 +29,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "groupButtons.groupButton2j3oxqhh6d.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2j3oxqhh6d.menuItems.menuItemv38tj18ahj.onClick"
     }
   ],
   "groupButtons": {
@@ -98,7 +101,7 @@
     },
     "groupButton2j3oxqhh6d": {
       "buttonColor": "#7b5f81",
-      "buttonType": "SIMPLE",
+      "buttonType": "MENU",
       "iconName": "panel-table",
       "id": "groupButton2j3oxqhh6d",
       "index": 4,
@@ -107,7 +110,17 @@
       "isVisible": true,
       "itemType": "BUTTON",
       "label": "Таблицы БД",
-      "menuItems": {},
+      "menuItems": {
+        "menuItemv38tj18ahj": {
+          "id": "menuItemv38tj18ahj",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "_p_bus_lic__f_tables_of_in_out_ugadn_csv",
+          "onClick": "{{navigateTo('_f_tables_of_in_out_ugadn_csv', {}, 'SAME_WINDOW');}}",
+          "widgetId": "em0uy5yesr"
+        }
+      },
       "onClick": "{{navigateTo('_p_bus_lic.proc_print_and_out', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "variant": "filled",
