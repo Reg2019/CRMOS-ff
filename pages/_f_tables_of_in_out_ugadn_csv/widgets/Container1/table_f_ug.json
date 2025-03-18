@@ -683,7 +683,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{selectName.run();}}",
+  "tableData": "{{Select__p_bus_lic__f_tables_of_in_out1.data}}",
   "textSize": "0.875rem",
   "topRow": 6,
   "totalRecordsCount": "{{Total_record__p_bus_lic__f_tables_of_in_out1.data[0].count}}",

@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "Select__p_bus_lic__f_tables_of_in_out1",
     "pageId": "_f_tables_of_in_out_ugadn_csv",
     "userSetOnLoad": false
