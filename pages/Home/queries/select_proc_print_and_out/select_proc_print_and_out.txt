@@ -1,0 +1,1 @@
+SELECT * FROM "_p_bus_lic".proc_print_and_out LIMIT 1000;

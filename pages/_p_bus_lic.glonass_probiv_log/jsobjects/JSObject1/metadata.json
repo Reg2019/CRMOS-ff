@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67d076563cc8d330969b1291_cdb8d7c9-9578-4e13-b72a-06c2e381bedc",
+  "id": "_p_bus_lic.glonass_probiv_log_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "_p_bus_lic.glonass_probiv_log",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
