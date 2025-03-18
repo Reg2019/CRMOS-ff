@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "plus",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "t9ujnw62qh",
+  "leftColumn": 0,
+  "minWidth": 50,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(Modal1.name);}}",
+  "parentColumnSpace": 13.361083984375,
+  "parentId": "sqdwzb0nho",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 4,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "30puy6naq8",
+  "widgetName": "IconButton3insert"
+}

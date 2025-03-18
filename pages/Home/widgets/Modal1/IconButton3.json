@@ -1,10 +1,10 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 4,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
+  "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
@@ -13,27 +13,32 @@
       "key": "borderRadius"
     }
   ],
-  "iconName": "plus",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "cross",
+  "iconSize": 24,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "t9ujnw62qh",
-  "leftColumn": 22,
+  "leftColumn": 62,
   "minWidth": 50,
-  "mobileBottomRow": 6,
-  "mobileLeftColumn": 22,
-  "mobileRightColumn": 26,
-  "mobileTopRow": 2,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 58,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "parentColumnSpace": 13.361083984375,
-  "parentId": "sqdwzb0nho",
-  "parentRowSpace": 10,
+  "onClick": "{{closeModal(Modal1.name);}}",
+  "parentId": "dzy6t6mmoi",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 26,
-  "topRow": 2,
+  "rightColumn": 64,
+  "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "30puy6naq8",
+  "widgetId": "k0r26rhd7p",
   "widgetName": "IconButton3"
 }
