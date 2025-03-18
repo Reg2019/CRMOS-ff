@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO _p_bus_lic.\"proc_print_and_out\" (\"gosnumber_denorm\", \"bus_owner_denorm\", \"datetime_printed\", \"datetime_out\", \"rem\")\n  VALUES ('{{gosnumber_denorm}}', \n\t\t\t\t\t'{{bus_owner_denorm}}', \n\t\t\t\t\t\n\t\t\t\t\t{{datetime_printed}}, \n\t\t\t\t\t{{datetime_out}}, \n\t\t\t\t\t{{rem}}\n\t\t\t\t );",
+      "body": "INSERT INTO _p_bus_lic.\"proc_print_and_out\" (\"gosnumber_denorm\", \"bus_owner_denorm\", \"datetime_printed\", \"datetime_out\", \"rem\")\n  VALUES ('{{gosnomer}}', \n\t\t\t\t\t'{{vladelec}}', \n\t\t\t\t\t\n\t\t\t\t\t{{datetime_printed}}, \n\t\t\t\t\t{{datetime_out}}, \n\t\t\t\t\t{{rem}}\n\t\t\t\t );",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

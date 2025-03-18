@@ -1,6 +1,6 @@
 INSERT INTO _p_bus_lic."proc_print_and_out" ("gosnumber_denorm", "bus_owner_denorm", "datetime_printed", "datetime_out", "rem")
-  VALUES ('{{gosnumber_denorm}}', 
-					'{{bus_owner_denorm}}', 
+  VALUES ('{{gosnomer}}', 
+					'{{vladelec}}', 
 					
 					{{datetime_printed}}, 
 					{{datetime_out}}, 
