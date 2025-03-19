@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO _all.__inbox_data (date, c_short, c_markdown)\nVALUES (CURRENT_TIMESTAMP, '{{Input2short.text.text}}', '{{RichTextEditor1long.text.value}}')\nRETURNING *;\n",
+      "body": "INSERT INTO _all.__inbox_data (c_short, c_markdown)\nVALUES ('{{Input2short.text.text}}', '{{RichTextEditor1long.text.value}}')\nRETURNING *;\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

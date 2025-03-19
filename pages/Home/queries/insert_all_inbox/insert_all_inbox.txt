@@ -1,3 +1,3 @@
-INSERT INTO _all.__inbox_data (date, c_short, c_markdown)
-VALUES (CURRENT_TIMESTAMP, '{{Input2short.text.text}}', '{{RichTextEditor1long.text.value}}')
+INSERT INTO _all.__inbox_data (c_short, c_markdown)
+VALUES ('{{Input2short.text.text}}', '{{RichTextEditor1long.text.value}}')
 RETURNING *;
