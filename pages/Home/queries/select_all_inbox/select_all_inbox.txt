@@ -1,0 +1,3 @@
+SELECT * FROM _all."__inbox_data" 
+WHERE to_delete IS NOT TRUE
+LIMIT 100;
