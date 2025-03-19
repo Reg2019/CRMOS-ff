@@ -1,12 +1,13 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": true,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 38,
+  "bottomRow": 52,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "canFreezeColumn": true,
+  "canFreezeColumn": false,
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -41,7 +42,7 @@
     "sequence_number",
     "created_at"
   ],
-  "columnUpdatedAt": 1742303930299,
+  "columnUpdatedAt": 1742426063984,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -95,9 +96,22 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.datetime.outputFormat"
+    },
+    {
+      "key": "primaryColumns.datetime_printed.outputFormat"
+    },
+    {
+      "key": "primaryColumns.datetime_out.outputFormat"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onAddNewRowSave"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -105,7 +119,7 @@
   "isLoading": false,
   "isSortable": true,
   "isVisible": true,
-  "isVisibleDownload": true,
+  "isVisibleDownload": false,
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
@@ -118,9 +132,11 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
+  "onAddNewRowSave": "{{insert_proc_print_and_out.run().then(() => {\n  showAlert('ok', 'success');\n}).catch(() => {\n  showAlert('bag', 'error');\n});}}",
   "parentColumnSpace": 13.361083984375,
   "parentId": "sqdwzb0nho",
   "parentRowSpace": 10,
+  "primaryColumnId": "id",
   "primaryColumns": {
     "bus_owner_denorm": {
       "alias": "bus_owner_denorm",
@@ -188,7 +204,7 @@
       "alias": "datetime",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "columnType": "text",
+      "columnType": "date",
       "computedValue": "{{Table1proc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"datetime\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -208,6 +224,7 @@
       "label": "datetime",
       "notation": "standard",
       "originalId": "datetime",
+      "outputFormat": "DD.MM.YYYY",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -219,7 +236,7 @@
       "alias": "datetime_out",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "columnType": "text",
+      "columnType": "date",
       "computedValue": "{{Table1proc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"datetime_out\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -239,6 +256,7 @@
       "label": "datetime_out",
       "notation": "standard",
       "originalId": "datetime_out",
+      "outputFormat": "DD.MM.YYYY",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -250,7 +268,7 @@
       "alias": "datetime_printed",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "columnType": "text",
+      "columnType": "date",
       "computedValue": "{{Table1proc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"datetime_printed\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -270,6 +288,7 @@
       "label": "datetime_printed",
       "notation": "standard",
       "originalId": "datetime_printed",
+      "outputFormat": "DD.MM.YYYY",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -328,7 +347,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "id",
       "notation": "standard",
       "originalId": "id",
