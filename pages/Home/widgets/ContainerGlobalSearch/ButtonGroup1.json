@@ -24,6 +24,12 @@
     },
     {
       "key": "groupButtons.groupButtonkegwxqhm6x.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2j3oxqhh6d.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonbv3kwmcn3l.buttonColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -32,6 +38,9 @@
     },
     {
       "key": "groupButtons.groupButton2j3oxqhh6d.menuItems.menuItemv38tj18ahj.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonbv3kwmcn3l.onClick"
     }
   ],
   "groupButtons": {
@@ -41,7 +50,7 @@
       "disabledWhenInvalid": false,
       "iconName": "star",
       "id": "groupButton1",
-      "index": 0,
+      "index": 1,
       "isDisabled": false,
       "isVisible": true,
       "label": "Оперативка",
@@ -55,7 +64,7 @@
       "disabledWhenInvalid": false,
       "iconName": "add",
       "id": "groupButton2",
-      "index": 1,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "Добавить",
@@ -104,7 +113,7 @@
       "buttonType": "MENU",
       "iconName": "panel-table",
       "id": "groupButton2j3oxqhh6d",
-      "index": 4,
+      "index": 5,
       "isDisabled": false,
       "isSeparator": false,
       "isVisible": true,
@@ -132,7 +141,7 @@
       "disabledWhenInvalid": false,
       "iconName": "control",
       "id": "groupButton3",
-      "index": 2,
+      "index": 3,
       "isDisabled": false,
       "isVisible": true,
       "label": "Контакты",
@@ -181,12 +190,28 @@
       "placement": "CENTER",
       "widgetId": ""
     },
+    "groupButtonbv3kwmcn3l": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonbv3kwmcn3l",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "+ inbox",
+      "menuItems": {},
+      "onClick": "{{showModal(Modal2inbox.name);}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "f3mbupcekm"
+    },
     "groupButtonkegwxqhm6x": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
       "iconName": "calendar",
       "id": "groupButtonkegwxqhm6x",
-      "index": 3,
+      "index": 4,
       "isDisabled": false,
       "isSeparator": false,
       "isVisible": true,
