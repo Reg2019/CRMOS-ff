@@ -15,11 +15,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -37,7 +33,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "async () => {\n  try {\n    await insert_all_inbox.run(); // Запуск SQL-запроса на вставку\n\n    Input2short.setValue(\"\"); // Очистка поля \"Short\"\n    RichTextEditor1long.setValue(\"\"); // Очистка редактора \"Long\"\n\n    closeModal(\"Modal2inbox\"); // Закрытие модального окна\n    showAlert(\"Данные успешно сохранены!\", \"success\"); // Уведомление об успехе\n  } catch (error) {\n    showAlert(\"Ошибка при сохранении: \" + error.message, \"error\"); // Уведомление об ошибке\n  }\n}\n",
+  "onClick": "{{Button7saveonClick.Button7saveonClick();}}",
   "parentId": "5mm5xki8yx",
   "placement": "CENTER",
   "recaptchaType": "V3",
