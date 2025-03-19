@@ -33,7 +33,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{insert_all_inbox.run().then(() => {\n  showAlert('ok', 'success');\n}).catch(() => {\n  showAlert('bag', 'error');\n});}}",
+  "onClick": "{{insert_all_inbox.run().then(() => {\n  showAlert('ok', 'success');\n  closeModal(Modal2inbox.name);\n}).catch(() => {\n  showAlert('bag', 'error');\n  closeModal(Modal2inbox.name);\n});}}",
   "parentId": "5mm5xki8yx",
   "placement": "CENTER",
   "recaptchaType": "V3",
