@@ -1,0 +1,8 @@
+{
+  "templateId": "YOUR_TEMPLATE_ID",
+  "data": {
+    "urlico1_name": "{{Table1.selectedRow.urlico1_name}}",
+    "urlico2_name": "{{Table1.selectedRow.urlico2_name}}"
+  },
+  "convertTo": "pdf"
+}

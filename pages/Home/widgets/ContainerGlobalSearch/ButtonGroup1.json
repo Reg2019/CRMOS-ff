@@ -44,6 +44,9 @@
     },
     {
       "key": "groupButtons.groupButtonbv3kwmcn3l.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonjqzxnh091t.menuItems.menuItem0lyp3ii2ws.onClick"
     }
   ],
   "groupButtons": {
@@ -211,7 +214,7 @@
     },
     "groupButtonjqzxnh091t": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-      "buttonType": "SIMPLE",
+      "buttonType": "MENU",
       "id": "groupButtonjqzxnh091t",
       "index": 6,
       "isDisabled": false,
@@ -219,7 +222,17 @@
       "isVisible": true,
       "itemType": "BUTTON",
       "label": "Эксперименты",
-      "menuItems": {},
+      "menuItems": {
+        "menuItem0lyp3ii2ws": {
+          "id": "menuItem0lyp3ii2ws",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Carbone.io тест",
+          "onClick": "{{navigateTo('_test_carbone_2025-03', {}, 'SAME_WINDOW');}}",
+          "widgetId": "207xw6inxx"
+        }
+      },
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "tnmempmd8e"
