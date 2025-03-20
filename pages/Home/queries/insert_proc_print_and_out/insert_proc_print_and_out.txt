@@ -1,8 +1,7 @@
-INSERT INTO _p_bus_lic."proc_print_and_out" ("gosnumber_denorm", "bus_owner_denorm", "datetime_printed", "datetime_out", "rem")
-  VALUES ('{{gosnomer}}', 
-					'{{vladelec}}', 
-					
-					{{datetime_printed}}, 
-					{{datetime_out}}, 
-					{{rem}}
-				 );
+INSERT INTO _p_bus_lic."proc_print_and_out" ("gosnumber_denorm", "bus_owner_denorm", "datetime_printed")
+VALUES (
+    'LEFT('{{Input2gosnumber}}', 8)', 
+    '{{Input3owner}}',
+    TO_TIMESTAMP('{{DatePicker1}}', 'DD.MM.YYYY HH24:MI')
+)
+RETURNING *;

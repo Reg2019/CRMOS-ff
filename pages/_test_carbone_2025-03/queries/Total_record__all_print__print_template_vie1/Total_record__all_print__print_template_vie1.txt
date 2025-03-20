@@ -1,0 +1,1 @@
+SELECT COUNT(*) from _all_print._print_template_view where urlico1_name ilike '%{{Table1.searchText}}%';

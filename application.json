@@ -61,6 +61,10 @@
     {
       "id": "_p_bus_lic.glonass_probiv_log",
       "isDefault": false
+    },
+    {
+      "id": "_test_carbone_2025-03",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

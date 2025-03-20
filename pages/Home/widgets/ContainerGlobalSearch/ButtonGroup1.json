@@ -30,6 +30,9 @@
     },
     {
       "key": "groupButtons.groupButtonbv3kwmcn3l.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonjqzxnh091t.buttonColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -205,6 +208,21 @@
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "f3mbupcekm"
+    },
+    "groupButtonjqzxnh091t": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonjqzxnh091t",
+      "index": 6,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Эксперименты",
+      "menuItems": {},
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "tnmempmd8e"
     },
     "groupButtonkegwxqhm6x": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",

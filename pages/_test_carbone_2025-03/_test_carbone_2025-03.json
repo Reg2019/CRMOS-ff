@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "67d076563cc8d330969b1291_9e0f8476-05db-404d-ac2f-d36b4519b746",
+  "gitSyncId": "67d076563cc8d330969b1291_0195548e-a30e-46e2-9aef-32bae2f3ea4b",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 980,
+          "bottomRow": 460,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 760,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 74,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Home",
-    "slug": "home"
+    "name": "_test_carbone_2025-03",
+    "slug": "test-carbone-2025-03"
   }
 }
