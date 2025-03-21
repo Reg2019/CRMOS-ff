@@ -1,0 +1,81 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 24,
+  "boxShadow": "NONE",
+  "children": [
+    {
+      "bottomRow": 140,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 92.2265625,
+      "parentColumnSpace": 1,
+      "parentId": "ulcsl8c1xl",
+      "parentRowSpace": 1,
+      "props": {
+        "canExtend": false,
+        "children": [],
+        "containerStyle": "none",
+        "detachFromLayout": true
+      },
+      "renderMode": "CANVAS",
+      "rightColumn": 245.9375,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "eif0coc7u6",
+      "widgetName": "Canvas16"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "b7f3499d9j",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "originalBottomRow": 24,
+  "originalTopRow": 10,
+  "parentColumnSpace": 3.8427734375,
+  "parentId": "8eal7gbcn0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "tabId": "",
+  "tags": [
+    "Layout"
+  ],
+  "topRow": 10,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "ulcsl8c1xl",
+  "widgetName": "con_deleteCustomerDetails"
+}

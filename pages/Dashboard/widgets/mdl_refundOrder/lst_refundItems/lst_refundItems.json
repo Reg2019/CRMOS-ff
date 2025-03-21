@@ -1,0 +1,120 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "additionalStaticProps": [
+    "level",
+    "levelData",
+    "prefixMetaWidgetId",
+    "metaWidgetId"
+  ],
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 340,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dropDisabled": true,
+      "dynamicBindingPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "8mxisfuwu5",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "minWidth": 450,
+      "mobileBottomRow": 400,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 166.5,
+      "mobileTopRow": 0,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "5w1ihiphjt",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 166.5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "7eddfbtdkg",
+      "widgetName": "Canvas18"
+    }
+  ],
+  "currentItemsView": "{{[]}}",
+  "displayName": "List",
+  "dynamicBindingPathList": [
+    {
+      "key": "currentItemsView"
+    },
+    {
+      "key": "selectedItemView"
+    },
+    {
+      "key": "triggeredItemView"
+    },
+    {
+      "key": "primaryKeys"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "listData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enhancements": true,
+  "gridType": "vertical",
+  "hasMetaWidgets": true,
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "itemBackgroundColor": "#FFFFFF",
+  "itemSpacing": 8,
+  "key": "1c3hy8s42r",
+  "leftColumn": 0,
+  "listData": "{{fetch_order_details.data}}",
+  "mainCanvasId": "7eddfbtdkg",
+  "mainContainerId": "yb5b1pmm1a",
+  "minWidth": 450,
+  "mobileBottomRow": 46,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 6,
+  "originalBottomRow": 43,
+  "originalTopRow": 9,
+  "pageSize": 5,
+  "parentColumnSpace": 6.9375,
+  "parentId": "gw6r29l4qt",
+  "parentRowSpace": 10,
+  "primaryKeys": "{{lst_refundItems.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "renderMode": "CANVAS",
+  "requiresFlatWidgetChildren": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "selectedItemView": "{{{}}}",
+  "tags": [
+    "Suggested",
+    "Display"
+  ],
+  "templateBottomRow": 16,
+  "topRow": 9,
+  "triggeredItemView": "{{{}}}",
+  "type": "LIST_WIDGET_V2",
+  "widgetId": "5w1ihiphjt",
+  "widgetName": "lst_refundItems"
+}

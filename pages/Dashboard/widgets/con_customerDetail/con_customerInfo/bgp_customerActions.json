@@ -1,0 +1,121 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "displayName": "Button Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonete9wu9bpt.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton2.isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonete9wu9bpt.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "edit",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Edit",
+      "menuItems": {},
+      "onClick": "{{showModal('mdl_editCustomer');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "#b91c1c",
+      "buttonType": "SIMPLE",
+      "iconName": "trash",
+      "id": "groupButton2",
+      "index": 2,
+      "isDisabled": "{{tbl_customers.selectedRow.status !== 'Active'}}",
+      "isVisible": true,
+      "label": "Delete",
+      "menuItems": {},
+      "onClick": "{{showModal('mdl_deleteUser');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtonete9wu9bpt": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "asterisk",
+      "id": "groupButtonete9wu9bpt",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Password",
+      "menuItems": {},
+      "onClick": "{{showModal('mdl_resetPassword');}}",
+      "placement": "CENTER",
+      "widgetId": "kdtpbofy7r"
+    }
+  },
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "566gw8dutn",
+  "leftColumn": 32,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 40,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 8,
+  "orientation": "horizontal",
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
+  "parentColumnSpace": 7.794189453125,
+  "parentId": "ejnk16esgo",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 14,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "5n2uz2qlbs",
+  "widgetName": "bgp_customerActions"
+}

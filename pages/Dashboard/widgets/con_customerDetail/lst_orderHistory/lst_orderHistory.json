@@ -1,0 +1,124 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "additionalStaticProps": [
+    "level",
+    "levelData",
+    "prefixMetaWidgetId",
+    "metaWidgetId"
+  ],
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 83,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 560,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dropDisabled": true,
+      "dynamicBindingPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "tscn0a8oja",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "minWidth": 450,
+      "mobileBottomRow": 400,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 194.560546875,
+      "mobileTopRow": 0,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "rbqjr5nedq",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 194.560546875,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "igmrhp2v4y",
+      "widgetName": "Canvas6"
+    }
+  ],
+  "currentItemsView": "{{[]}}",
+  "defaultSelectedItem": "{{fetch_customer_orders.data[0].id}}",
+  "displayName": "List",
+  "dynamicBindingPathList": [
+    {
+      "key": "currentItemsView"
+    },
+    {
+      "key": "selectedItemView"
+    },
+    {
+      "key": "triggeredItemView"
+    },
+    {
+      "key": "primaryKeys"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "listData"
+    },
+    {
+      "key": "defaultSelectedItem"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enhancements": true,
+  "gridType": "vertical",
+  "hasMetaWidgets": true,
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "itemBackgroundColor": "#FFFFFF",
+  "itemSpacing": 8,
+  "key": "sxfklwxafs",
+  "leftColumn": 0,
+  "listData": "{{fetch_customer_orders.data}}",
+  "mainCanvasId": "igmrhp2v4y",
+  "mainContainerId": "lw159gf0qq",
+  "minWidth": 450,
+  "mobileBottomRow": 57,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 17,
+  "originalBottomRow": 67,
+  "originalTopRow": 25,
+  "pageSize": 5,
+  "parentColumnSpace": 8.106689453125,
+  "parentId": "nr9yy2gop3",
+  "parentRowSpace": 10,
+  "primaryKeys": "{{lst_orderHistory.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "renderMode": "CANVAS",
+  "requiresFlatWidgetChildren": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "selectedItemView": "{{{}}}",
+  "tags": [
+    "Suggested",
+    "Display"
+  ],
+  "templateBottomRow": 16,
+  "topRow": 27,
+  "triggeredItemView": "{{{}}}",
+  "type": "LIST_WIDGET_V2",
+  "widgetId": "rbqjr5nedq",
+  "widgetName": "lst_orderHistory"
+}

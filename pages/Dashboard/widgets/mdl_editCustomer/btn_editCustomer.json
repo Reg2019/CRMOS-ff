@@ -1,0 +1,69 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 39,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{!inp_updateFirstName.isValid || !inp_updateLastName.isValid || !inp_updateEmail.isValid || !inp_updatePhone.isValid}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5rxpxjpar3",
+  "leftColumn": 44,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "onClick": "{{update_customer.run().then(() => {\n  fetch_customers.run();\n  closeModal('mdl_editCustomer');\n  showAlert('Customer Updated!', 'success');\n}).catch(() => {\n  showAlert('Error Updating Customer', 'error');\n});}}",
+  "originalBottomRow": 39,
+  "originalTopRow": 35,
+  "parentId": "hnwebe3npb",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Confirm",
+  "topRow": 35,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "zezd5nv4vx",
+  "widgetName": "btn_editCustomer"
+}

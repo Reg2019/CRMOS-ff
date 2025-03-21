@@ -1,6 +1,6 @@
 {
   "borderRadius": "0px",
-  "bottomRow": 5,
+  "bottomRow": 8,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -15,7 +15,7 @@
   ],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.5rem",
+  "fontSize": "0.5rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": "true",
@@ -31,7 +31,7 @@
   "text": "_p_bus_lic__f_tables_of_in_out_ugadn_csv",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 4,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "urzv99hdc8",

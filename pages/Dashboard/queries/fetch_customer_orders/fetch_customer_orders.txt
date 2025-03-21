@@ -1,0 +1,10 @@
+SELECT
+  o.*, r.name as restaurant, r.location_lat, r.location_long, pd.payment_method, pd.payment_status, pd.amount, pd.refund
+FROM
+  public."order" o
+INNER JOIN public.restaurant r ON o.restaurant_id = r.id
+INNER JOIN public.payment_detail pd ON o.id = pd.order_id
+WHERE o.customer_id = {{tbl_customers.selectedRow.id || '1'}}
+ORDER BY o.created DESC
+LIMIT {{lst_orderHistory.pageSize}}
+OFFSET {{(lst_orderHistory.pageNo - 1) * lst_orderHistory.pageSize}};

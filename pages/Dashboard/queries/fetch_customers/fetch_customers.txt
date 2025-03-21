@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.customer
+WHERE
+  "email" ilike '%{{tbl_customers.searchText}}%'
+ORDER BY
+  "{{tbl_customers.sortOrder.column || 'id'}}" {{tbl_customers.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{tbl_customers.pageSize}}
+OFFSET
+  {{tbl_customers.pageOffset}}

@@ -1,0 +1,63 @@
+{
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 69,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": "[\n  {\n    \"lat\": {{fetch_order_address.data[0].latitude}},\n    \"long\": {{fetch_order_address.data[0].longitude}},\n    \"title\": {{fetch_order_address.data[0].label}},\n\t\t\"color\": \"green\"\n  },\n\t{\n    \"lat\": {{lst_orderHistory.triggeredItem.location_lat}},\n    \"long\": {{lst_orderHistory.triggeredItem.location_long}},\n    \"title\": {{lst_orderHistory.triggeredItem.restaurant}},\n\t\t\"color\": \"black\"\n  },\n\t{\n    \"lat\": {{fetch_delivery_person.data[0].latitude}},\n    \"long\": {{fetch_delivery_person.data[0].longitude}},\n    \"title\": {{fetch_delivery_person.data[0].first_name}},\n\t\t\"color\": \"red\"\n  }\n]",
+  "displayName": "Map",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "defaultMarkers"
+    },
+    {
+      "key": "mapCenter"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "mapCenter"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enablePickLocation": false,
+  "enableSearch": false,
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.5d50414980b866c69864af79042fa1f9.svg",
+  "isClickedMarkerCentered": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0pui7sdfsh",
+  "leftColumn": 0,
+  "mapCenter": "{\n    \"lat\": {{fetch_order_address.data[0].latitude}},\n    \"long\": {{fetch_order_address.data[0].longitude}}\n}",
+  "minWidth": 450,
+  "mobileBottomRow": 48,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 8,
+  "originalBottomRow": 69,
+  "originalTopRow": 28,
+  "parentColumnSpace": 13.9375,
+  "parentId": "ba8tafscah",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 36,
+  "tags": [
+    "Content"
+  ],
+  "topRow": 28,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "awd4vlmxxb",
+  "widgetName": "map_delivery",
+  "zoomLevel": 60
+}

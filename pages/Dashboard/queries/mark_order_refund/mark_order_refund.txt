@@ -1,0 +1,1 @@
+UPDATE payment_detail SET refund = {{(lst_orderHistory.triggeredItem.refund || 0) + Utils.totalRefund()}} WHERE order_id = {{lst_orderHistory.triggeredItem.id}}

@@ -1,0 +1,1 @@
+SELECT * FROM public."delivery_person" where id = {{lst_orderHistory.triggeredItem.delivery_person_id}} LIMIT 1

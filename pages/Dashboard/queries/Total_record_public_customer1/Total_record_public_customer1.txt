@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.customer where email ilike '%{{tbl_customers.searchText}}%';

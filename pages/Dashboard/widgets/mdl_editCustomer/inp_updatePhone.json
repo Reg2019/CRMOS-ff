@@ -1,0 +1,73 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowDialCodeChange": false,
+  "allowFormatting": true,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "defaultDialCode": "+1",
+  "defaultText": "{{tbl_customers.selectedRow.phone}}",
+  "displayName": "Phone Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "validation"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.d9bf1c0820d1437867fa5a3dfb174eba.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "3m0i87jkwy",
+  "label": "Phone",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 29,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 22,
+  "originalBottomRow": 28,
+  "originalTopRow": 21,
+  "parentColumnSpace": 6.9375,
+  "parentId": "hnwebe3npb",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "call"
+  ],
+  "tags": [
+    "Inputs"
+  ],
+  "topRow": 21,
+  "type": "PHONE_INPUT_WIDGET",
+  "validation": "{{inp_updatePhone.text.length >= 10 }}",
+  "version": 1,
+  "widgetId": "7uanaphfmj",
+  "widgetName": "inp_updatePhone"
+}

@@ -1,0 +1,1 @@
+SELECT * FROM public."restaurant" where id = {{lst_orderHistory.triggeredItem.restaurant_id}} LIMIT 1

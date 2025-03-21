@@ -1,0 +1,19 @@
+SELECT
+    order_detail.id,
+    order_detail.order_id,
+    order_detail.dish_id AS order_dish_id,
+    order_detail.quantity,
+    restaurant_dish.id AS dish_dish_id,
+    restaurant_dish.restaurant_id,
+    restaurant_dish.name,
+    restaurant_dish.description,
+    restaurant_dish.price,
+    restaurant_dish.image
+FROM
+    public."order_detail"
+INNER JOIN
+    restaurant_dish
+ON
+    order_detail.dish_id = restaurant_dish.id
+WHERE
+    order_id = {{lst_orderHistory.triggeredItem.id}};

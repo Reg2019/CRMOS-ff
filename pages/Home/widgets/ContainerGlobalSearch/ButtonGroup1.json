@@ -47,6 +47,9 @@
     },
     {
       "key": "groupButtons.groupButtonjqzxnh091t.menuItems.menuItem0lyp3ii2ws.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2j3oxqhh6d.menuItems.menuItem5m0wj3wc1a.onClick"
     }
   ],
   "groupButtons": {
@@ -126,6 +129,15 @@
       "itemType": "BUTTON",
       "label": "Таблицы БД",
       "menuItems": {
+        "menuItem5m0wj3wc1a": {
+          "id": "menuItem5m0wj3wc1a",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "_all.__inbox_data",
+          "onClick": "{{showModal(Modal2selectInbox.name);}}",
+          "widgetId": "m1e6d1k5ze"
+        },
         "menuItemv38tj18ahj": {
           "id": "menuItemv38tj18ahj",
           "index": 0,

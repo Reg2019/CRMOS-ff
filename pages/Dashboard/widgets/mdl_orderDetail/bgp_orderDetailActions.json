@@ -1,0 +1,143 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "displayName": "Button Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonc8qsa7wzh4.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton1.isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton1.isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonc8qsa7wzh4.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#fca5a5",
+      "buttonType": "SIMPLE",
+      "iconName": "dollar",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": "{{lst_orderHistory.triggeredItem.payment_method === 'Cash On Delivery' || lst_orderHistory.triggeredItem.delivery_status === \"Canceled\" || lst_orderHistory.triggeredItem.refund >= lst_orderHistory.triggeredItem.amount }}",
+      "isVisible": true,
+      "label": "Refund",
+      "menuItems": {},
+      "onClick": "{{showModal('mdl_refundOrder');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "iconName": "phone",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Call",
+      "menuItems": {
+        "menuItem2ajdx4jcsr": {
+          "iconName": "shop",
+          "id": "menuItem2ajdx4jcsr",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Restaurant",
+          "widgetId": "tu60jbxbcb"
+        },
+        "menuItembuhadw89ko": {
+          "iconName": "hat",
+          "id": "menuItembuhadw89ko",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Partner",
+          "widgetId": "rux7babx4e"
+        },
+        "menuItemwzwv8jzlug": {
+          "iconName": "person",
+          "id": "menuItemwzwv8jzlug",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Customer",
+          "widgetId": "7hnk7eafxd"
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtonc8qsa7wzh4": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "box",
+      "id": "groupButtonc8qsa7wzh4",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Voucher",
+      "menuItems": {},
+      "onClick": "{{showModal('mdl_generateVoucher');}}",
+      "placement": "CENTER",
+      "widgetId": "2lw5wusbxz"
+    }
+  },
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "566gw8dutn",
+  "leftColumn": 36,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 21,
+  "orientation": "horizontal",
+  "parentColumnSpace": 14,
+  "parentId": "ba8tafscah",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 0,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "mhr5ok6hps",
+  "widgetName": "bgp_orderDetailActions"
+}

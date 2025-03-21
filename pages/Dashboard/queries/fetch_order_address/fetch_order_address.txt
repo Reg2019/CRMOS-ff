@@ -1,0 +1,1 @@
+SELECT * FROM public."address" where id = {{lst_orderHistory.triggeredItem.address_id}} LIMIT 1
