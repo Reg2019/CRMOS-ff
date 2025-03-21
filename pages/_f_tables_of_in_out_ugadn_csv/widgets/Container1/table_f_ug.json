@@ -27,8 +27,8 @@
     "gosnum",
     "date_create",
     "in_or_out",
-    "people",
     "type",
+    "people",
     "it",
     "ul",
     "rf_mg",
@@ -43,16 +43,16 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1742600121011,
+  "columnUpdatedAt": 1742601331240,
   "columnWidthMap": {
     "date_create": 114,
     "gosnum": 115,
     "in_or_out": 98,
     "it": 203,
-    "people": 258,
+    "people": 160,
     "rf_mg": 69,
     "type": 73,
-    "ul": 115
+    "ul": 97
   },
   "compactMode": "SHORT",
   "defaultPageSize": 0,
@@ -447,7 +447,7 @@
       "label": "Ситуация в итоге",
       "notation": "standard",
       "originalId": "it",
-      "selectOptions": "{{(() => { const tableData = table_f_ug.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( table_f_ug.tableData.map(row => row[\"it\"]).filter((value, index, self) => self.indexOf(value) === index) )) :  table_f_ug.tableData.map(row => row[\"it\"]).filter((value, index, self) => self.indexOf(value) === index)  })()}}",
+      "selectOptions": "{{(() => { const tableData = table_f_ug.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n)) : [\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n })()}}",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
