@@ -5,7 +5,7 @@
   "borderRadius": "1.5rem",
   "bottomRow": 14,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "test@crmos.vip",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

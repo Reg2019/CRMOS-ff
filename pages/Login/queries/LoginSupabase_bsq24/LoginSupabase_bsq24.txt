@@ -1,5 +1,0 @@
-{
-	"grant_type": "password",
-  "email": {{Input1login.text}},
-  "password": {{Input1password.text}}
-}

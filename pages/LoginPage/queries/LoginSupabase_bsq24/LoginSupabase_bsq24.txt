@@ -1,0 +1,6 @@
+{
+ "email": {{Input1login.text}},
+ "password": {{Input1password.text}}
+	// "email": "test@crmos.vip",
+ // "password": "test123test123"
+}

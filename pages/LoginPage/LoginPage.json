@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Login",
-    "slug": "login"
+    "name": "LoginPage",
+    "slug": "loginpage"
   }
 }

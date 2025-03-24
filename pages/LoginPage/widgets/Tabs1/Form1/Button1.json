@@ -11,6 +11,11 @@
       "key": "buttonColor"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -28,7 +33,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{LoginSupabase_bsq24.run().then(() => {\n  showAlert('ok', 'success');\n}).catch(() => {\n  showAlert('bag', 'error');\n});}}",
+  "onClick": "{{ auth.login().then(success => {\n  if(success) navigateTo(\"HomePage\");\n}) }}\n",
   "originalBottomRow": 37,
   "originalTopRow": 33,
   "parentId": "yfkykz648p",
