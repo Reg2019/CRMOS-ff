@@ -19,10 +19,12 @@ export default {
 
     storeValue("access_token", data.session.access_token);
     storeValue("user_id", data.user.id);
-    showAlert("Успешный вход!", "success");
+    // showAlert("Успешный вход!", "success");
+		showAlert(`Успешный вход c email ${data.user.email}`, "success");
+
 
     // 🔄 переход на домашнюю страницу
-		console.log("Навигация на домашнюю страницу");
+		// console.log("Навигация на домашнюю страницу");
     navigateTo("Home");
 
     return true;
