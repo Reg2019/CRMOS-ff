@@ -6,4 +6,3 @@ WHERE
   "gosnum" ILIKE '%{{table_f_ug.searchText}}%'
 ORDER BY
   {{table_f_ug.sortOrder.column ? table_f_ug.sortOrder.column : 'date_create DESC'}}
-/

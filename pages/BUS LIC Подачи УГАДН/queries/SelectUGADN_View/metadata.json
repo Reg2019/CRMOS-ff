@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  _p_bus_lic._f_tables_of_in_out_ugadn_csv\nWHERE\n  \"gosnum\" ILIKE '%{{table_f_ug.searchText}}%'\nORDER BY\n  {{table_f_ug.sortOrder.column ? table_f_ug.sortOrder.column : 'date_create DESC'}}\n/",
+      "body": "SELECT\n  *\nFROM\n  _p_bus_lic._f_tables_of_in_out_ugadn_csv\nWHERE\n  \"gosnum\" ILIKE '%{{table_f_ug.searchText}}%'\nORDER BY\n  {{table_f_ug.sortOrder.column ? table_f_ug.sortOrder.column : 'date_create DESC'}}\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

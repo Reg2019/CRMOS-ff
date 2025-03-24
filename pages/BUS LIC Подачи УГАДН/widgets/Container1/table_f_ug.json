@@ -6,6 +6,7 @@
   "bottomRow": 87,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
+  "cellBackground": "",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -43,7 +44,7 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1742601331240,
+  "columnUpdatedAt": 1742852773286,
   "columnWidthMap": {
     "date_create": 114,
     "gosnum": 115,
@@ -144,13 +145,13 @@
       "key": "totalRecordsCount"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.it.selectOptions"
     },
     {
       "key": "primaryColumns.type.selectOptions"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -167,9 +168,6 @@
       "key": "primaryColumns.in_or_out.textColor"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.date_sign.outputFormat"
     },
     {
@@ -180,6 +178,12 @@
     },
     {
       "key": "primaryColumns.it.onOptionChange"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicTriggerPathList": [
@@ -402,7 +406,7 @@
       "alias": "in_or_out",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{}}",
+      "cellBackground": "",
       "columnType": "select",
       "computedValue": "{{table_f_ug.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"in_or_out\"]))}}",
       "currencyCode": "USD",
