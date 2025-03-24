@@ -1,5 +1,5 @@
 export default {
-  login: async () => {
+  async login () {
     const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm');
 
     const supabase = createClient(
@@ -17,10 +17,53 @@ export default {
       return false;
     }
 
-    storeValue("access_token", data.session?.access_token);
-    storeValue("user_id", data.user?.id);
-
+    storeValue("access_token", data.session.access_token);
+    storeValue("user_id", data.user.id);
     showAlert("Успешный вход!", "success");
+
+    // 🔄 переход на домашнюю страницу
+    navigateTo("HomePage");
+
     return true;
+  },
+
+  async logout () {
+    storeValue("access_token", null);
+    storeValue("user_id", null);
+    storeValue("user_profile", null);
+    navigateTo("LoginPage");
+  },
+
+  async checkAuth () {
+    if (!appsmith.store.access_token) {
+      await navigateTo("LoginPage");
+      return;
+    }
+
+    // (опционально) Получить профиль
+    const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm');
+
+    const supabase = createClient(
+      'https://твой-домен.supabase.co',
+      appsmith.store.access_token
+    );
+
+    const { data, error } = await supabase.auth.getUser();
+
+    if (error || !data?.user?.id) {
+      await this.logout();
+      return;
+    }
+
+    // ⚙️ Загрузка профиля из таблицы user_profiles
+    const { data: profile, error: profileError } = await supabase
+      .from("user_profiles")
+      .select("*")
+      .eq("id", data.user.id)
+      .single();
+
+    if (profile) {
+      storeValue("user_profile", profile);
+    }
   }
 }
