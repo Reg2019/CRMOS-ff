@@ -5,7 +5,7 @@
   "pluginType": "API",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "{\n  \"email\": \"someone@email.com\",\n  \"password\": \"naBeOcpKBPYpDlzaKodu\"\n}",
+      "body": "{\n  \"email\": {{Input1login.text}},\n  \"password\": {{Input1password.text}}\n}",
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
@@ -23,16 +23,7 @@
       "httpMethod": "POST",
       "paginationType": "NONE",
       "path": "/auth/v1/token",
-      "queryParameters": [
-        {
-          "key": "email",
-          "value": "{{Input1login.text}}"
-        },
-        {
-          "key": "password",
-          "value": "{{Input1password.text}}"
-        }
-      ],
+      "queryParameters": [],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -46,10 +37,7 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "queryParameters[0].value"
-      },
-      {
-        "key": "queryParameters[1].value"
+        "key": "body"
       }
     ],
     "executeOnLoad": false,

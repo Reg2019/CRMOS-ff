@@ -1,4 +1,4 @@
 {
-  "email": "someone@email.com",
-  "password": "naBeOcpKBPYpDlzaKodu"
+  "email": {{Input1login.text}},
+  "password": {{Input1password.text}}
 }
