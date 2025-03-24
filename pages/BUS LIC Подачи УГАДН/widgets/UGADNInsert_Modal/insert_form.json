@@ -228,6 +228,9 @@
     },
     {
       "key": "schema.__root_schema__.children.vin.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.it.options"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -294,11 +297,11 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Date Added Reestr",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "date_added_reestr",
-          "position": 9
+          "position": 11
         },
         "date_create": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -342,11 +345,11 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Date Sent",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "date_sent",
-          "position": 8
+          "position": 10
         },
         "date_sign": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -363,11 +366,11 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Date Sign",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "date_sign",
-          "position": 7
+          "position": 9
         },
         "gosnum": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -388,7 +391,7 @@
           "label": "Gosnum",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "gosnum",
-          "position": 5,
+          "position": 6,
           "sourceData": "с894рв178"
         },
         "in_or_out": {
@@ -410,7 +413,7 @@
           "labelTextSize": "0.875rem",
           "options": "[\n  {\n    \"label\": \"ввод\",\n    \"value\": \"ввод\"\n  },\n  {\n    \"label\": \"вывод\",\n    \"value\": \"вывод\"\n  }\n]",
           "originalIdentifier": "in_or_out",
-          "position": 2,
+          "position": 3,
           "serverSideFiltering": false,
           "sourceData": "вывод"
         },
@@ -422,18 +425,19 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.it))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Select",
           "identifier": "it",
           "isCustomField": false,
           "isDisabled": false,
+          "isFilterable": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
-          "label": "It",
+          "label": "Итог",
           "labelTextSize": "0.875rem",
+          "options": "{{[\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n}}",
           "originalIdentifier": "it",
-          "position": 10,
+          "position": 1,
+          "serverSideFiltering": false,
           "sourceData": "ОТПРАВИТЬ ДЛЯ ГУ"
         },
         "people": {
@@ -452,10 +456,10 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "People",
+          "label": "Владелец",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "people",
-          "position": 6,
+          "position": 8,
           "sourceData": "Мирзаев Рашид Каримуллаевич"
         },
         "rem": {
@@ -474,10 +478,10 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Rem",
+          "label": "Комментарий к подаче",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "rem",
-          "position": 11
+          "position": 12
         },
         "rf_mg": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -487,18 +491,19 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.rf_mg))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Select",
           "identifier": "rf_mg",
           "isCustomField": false,
           "isDisabled": false,
+          "isFilterable": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
-          "label": "Rf Mg",
+          "label": "РФ / МЖ",
           "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"РФ\",\n    \"value\": \"РФ\"\n  },\n  {\n    \"label\": \"МЖ\",\n    \"value\": \"МЖ\"\n  }\n]",
           "originalIdentifier": "rf_mg",
-          "position": 4,
+          "position": 5,
+          "serverSideFiltering": false,
           "sourceData": "РФ"
         },
         "type": {
@@ -520,7 +525,7 @@
           "labelTextSize": "0.875rem",
           "options": "[\n  {\n    \"label\": \"ГУ\",\n    \"value\": \"ГУ\"\n  },\n  {\n    \"label\": \"УГАДН\",\n    \"value\": \"УГАДН\"\n  }\n]",
           "originalIdentifier": "type",
-          "position": 1,
+          "position": 2,
           "serverSideFiltering": false,
           "sourceData": "ГУ"
         },
@@ -532,18 +537,19 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ul))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Select",
           "identifier": "ul",
           "isCustomField": false,
           "isDisabled": false,
+          "isFilterable": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
-          "label": "Ul",
+          "label": "Юрлицо",
           "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Норд-С\",\n    \"value\": \"Норд-С\"\n  },\n  {\n    \"label\": \"БиДиСи\",\n    \"value\": \"БиДиСи\"\n  },\n  {\n    \"label\": \"Стимул\",\n    \"value\": \"Стимул\"\n  }\n]",
           "originalIdentifier": "ul",
-          "position": 3,
+          "position": 4,
+          "serverSideFiltering": false,
           "sourceData": "БиДиСи"
         },
         "vin": {
@@ -562,10 +568,10 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Vin",
+          "label": "VIN",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "vin",
-          "position": 12,
+          "position": 7,
           "sourceData": "WAG201162XBS27978"
         }
       },
