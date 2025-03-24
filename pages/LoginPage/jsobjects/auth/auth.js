@@ -22,7 +22,8 @@ export default {
     showAlert("Успешный вход!", "success");
 
     // 🔄 переход на домашнюю страницу
-    navigateTo("HomePage");
+		console.log("Навигация на домашнюю страницу");
+    navigateTo("Home");
 
     return true;
   },
