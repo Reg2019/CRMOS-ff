@@ -1,9 +1,9 @@
 {
-  "animateLoading": true,
+  "animateLoading": false,
   "autoGenerateForm": true,
   "backgroundColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 84,
+  "bottomRow": 80,
   "boxShadow": "none",
   "childStylesheet": {
     "ARRAY": {
@@ -251,7 +251,7 @@
     }
   ],
   "fieldLimitExceeded": false,
-  "fixedFooter": true,
+  "fixedFooter": false,
   "hideCard": false,
   "iconSVG": "/static/media/icon.6bacf7df.svg",
   "isLoading": false,
@@ -266,7 +266,7 @@
   "parentId": "9rhv3ioohq",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetButtonLabel": "Reset",
+  "resetButtonLabel": "Очистить",
   "resetButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
@@ -595,17 +595,18 @@
       }
     }
   },
-  "scrollContents": true,
+  "scrollContents": false,
+  "shouldScrollContents": true,
   "showReset": true,
   "sourceData": "{{table_f_ug.selectedRow}}",
-  "submitButtonLabel": "Submit",
+  "submitButtonLabel": "Добавить",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "PRIMARY"
   },
-  "title": "Insert Row",
+  "title": "Добавить подачу",
   "topRow": 0,
   "type": "JSON_FORM_WIDGET",
   "version": 1,

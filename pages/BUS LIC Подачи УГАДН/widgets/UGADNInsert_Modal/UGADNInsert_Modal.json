@@ -1,13 +1,13 @@
 {
   "borderRadius": "0px",
-  "bottomRow": 876,
+  "bottomRow": 836,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
       "borderRadius": "0px",
-      "bottomRow": 860,
+      "bottomRow": 820,
       "boxShadow": "none",
       "canExtend": true,
       "detachFromLayout": true,
@@ -18,7 +18,7 @@
       "isVisible": "true",
       "labelTextSize": "0.875rem",
       "leftColumn": 0,
-      "minHeight": 828,
+      "minHeight": 820,
       "parentColumnSpace": 1,
       "parentId": "vmorzie6eq",
       "parentRowSpace": 1,
@@ -35,12 +35,13 @@
   "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "height": 860,
+  "height": 820,
   "isLoading": false,
   "labelTextSize": "0.875rem",
   "leftColumn": 17,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
+  "minHeight": 870,
   "originalBottomRow": 40,
   "originalTopRow": 16,
   "parentColumnSpace": 18.8828125,
@@ -53,5 +54,5 @@
   "version": 2,
   "widgetId": "vmorzie6eq",
   "widgetName": "UGADNInsert_Modal",
-  "width": 532
+  "width": 558
 }
