@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "log-out",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6ko231ob5a",
+  "leftColumn": 39,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 39,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{auth.logout()}}",
+  "parentColumnSpace": 13.46875,
+  "parentId": "ca0ovjzo9j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 43,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "zz6h205fi4",
+  "widgetName": "IconButton6"
+}
