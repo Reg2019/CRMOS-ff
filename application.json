@@ -69,6 +69,10 @@
     {
       "id": "_test_carbone_2025-03",
       "isDefault": false
+    },
+    {
+      "id": "_p_bus_lic._f_tables_of_in_out_ugadn_csv",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
