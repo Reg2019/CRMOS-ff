@@ -51,7 +51,7 @@
       "isDefault": false
     },
     {
-      "id": "_f_tables_of_in_out_ugadn_csv",
+      "id": "BUS LIC Подачи УГАДН",
       "isDefault": false
     },
     {
@@ -71,7 +71,7 @@
       "isDefault": false
     },
     {
-      "id": "tmpt_p_bus_lic._f_tables_of_in",
+      "id": "Login",
       "isDefault": false
     }
   ],
