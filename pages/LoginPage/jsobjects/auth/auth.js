@@ -16,13 +16,16 @@ export default {
       showAlert("Ошибка входа: " + error.message, "error");
       return false;
     }
+		storeValue("access_token", data.session.access_token);
+		storeValue("user_id", data.user.id);
+		storeValue("user_email", data.user.email); // 👈 вот это нужно
 
-    storeValue("access_token", data.session.access_token);
-    storeValue("user_id", data.user.id);
-    showAlert("Успешный вход!", "success");
+		// showAlert("Успешный вход!", "success");
+		showAlert(`Успешный вход c email ${data.user.email}`, "success");
+
 
     // 🔄 переход на домашнюю страницу
-		console.log("Навигация на домашнюю страницу");
+		// console.log("Навигация на домашнюю страницу");
     navigateTo("Home");
 
     return true;

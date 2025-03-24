@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 39,
   "shouldTruncate": false,
-  "text": "Hello {{appsmith.user.name || appsmith.user.email}} - {{ appsmith.store.user_email }}",
+  "text": "Hello {{appsmith.user.name || appsmith.user.email}} - {{ appsmith.store.user_email }} -  {{ appsmith.store.user_email }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,
