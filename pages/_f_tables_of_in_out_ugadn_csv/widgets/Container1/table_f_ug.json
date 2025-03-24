@@ -52,7 +52,8 @@
     "people": 160,
     "rf_mg": 69,
     "type": 73,
-    "ul": 97
+    "ul": 97,
+    "vin": 185
   },
   "compactMode": "SHORT",
   "defaultPageSize": 0,
@@ -173,6 +174,9 @@
     },
     {
       "key": "primaryColumns.date_sent.outputFormat"
+    },
+    {
+      "key": "primaryColumns.it.onOptionChange"
     }
   ],
   "dynamicTriggerPathList": [
@@ -184,6 +188,9 @@
     },
     {
       "key": "onSort"
+    },
+    {
+      "key": "primaryColumns.it.onOptionChange"
     }
   ],
   "enableClientSideSearch": false,
@@ -446,6 +453,7 @@
       "isVisible": true,
       "label": "Ситуация в итоге",
       "notation": "standard",
+      "onOptionChange": "{{ updateIt.run() }}",
       "originalId": "it",
       "selectOptions": "{{(() => { const tableData = table_f_ug.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n)) : [\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n })()}}",
       "sticky": "",

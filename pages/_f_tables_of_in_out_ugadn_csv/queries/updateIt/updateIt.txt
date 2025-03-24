@@ -1,0 +1,3 @@
+UPDATE _p_bus_lic."_f_tables_of_in_out_ugadn_csv"
+SET status = '{{table_f_ug.selectedRow.it}}'
+WHERE id = '{{table_f_ug.selectedRow.id}}';
