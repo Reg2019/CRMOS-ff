@@ -44,7 +44,7 @@ export default {
     const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm');
 
     const supabase = createClient(
-      'https://твой-домен.supabase.co',
+      'https://b912187pi.bqt2030.click',
       appsmith.store.access_token
     );
 
