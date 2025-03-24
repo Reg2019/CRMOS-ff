@@ -3,7 +3,7 @@
   "autoGenerateForm": true,
   "backgroundColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 81,
+  "bottomRow": 84,
   "boxShadow": "none",
   "childStylesheet": {
     "ARRAY": {
@@ -432,7 +432,7 @@
           "isFilterable": false,
           "isRequired": false,
           "isVisible": true,
-          "label": "Итог",
+          "label": "Стадия",
           "labelTextSize": "0.875rem",
           "options": "{{[\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n}}",
           "originalIdentifier": "it",
