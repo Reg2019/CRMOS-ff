@@ -5,7 +5,7 @@
   "borderColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 86,
+  "bottomRow": 69,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -133,9 +133,6 @@
       "key": "schema.__root_schema__.children.date_create.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.type.defaultValue"
-    },
-    {
       "key": "schema.__root_schema__.children.type.borderRadius"
     },
     {
@@ -239,26 +236,19 @@
     },
     {
       "key": "schema.__root_schema__.children.vin.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.rf_mg.labelTextColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_added_reestr.minDate"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_added_reestr.maxDate"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
-    },
-    {
-      "key": "isVisible"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "onSubmit"
-    },
-    {
-      "key": "schema.__root_schema__.children.date_create.defaultValue"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
@@ -269,15 +259,15 @@
   "hideCard": false,
   "iconSVG": "/static/media/icon.6bacf7df.svg",
   "isLoading": false,
-  "isVisible": "{{!!data_table.selectedRow.date_create}}",
+  "isVisible": "{{!!table_f_ug.selectedRow.date_create}}",
   "key": "h9l9ozr8op",
   "labelTextSize": "0.875rem",
-  "leftColumn": 39,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
   "parentColumnSpace": 16.3125,
-  "parentId": "0",
+  "parentId": "y5gnkk8gg6",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetButtonLabel": "Reset",
@@ -302,21 +292,25 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
           "dataType": "null",
+          "dateFormat": "DD.MM.YYYY",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.date_added_reestr))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Datepicker",
           "identifier": "date_added_reestr",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "Date Added Reestr",
           "labelTextSize": "0.875rem",
+          "maxDate": "{{((sourceData, formData, fieldState) => (new Date(new Date().setMonth(new Date().getMonth() + 1))\n))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "minDate": "{{((sourceData, formData, fieldState) => (new Date(new Date().setFullYear(new Date().getFullYear() - 1))))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "originalIdentifier": "date_added_reestr",
           "position": 9,
-          "sourceData": null
+          "shortcuts": false,
+          "timePrecision": "minute"
         },
         "date_create": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -325,14 +319,14 @@
           "boxShadow": "none",
           "children": {},
           "closeOnSelection": false,
-          "convertToISO": false,
+          "convertToISO": true,
           "dataType": "string",
           "dateFormat": "YYYY-MM-DD",
           "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.date_create, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "fieldType": "Datepicker",
           "identifier": "date_create",
           "isCustomField": false,
-          "isDisabled": false,
+          "isDisabled": true,
           "isRequired": false,
           "isVisible": true,
           "label": "Date Create",
@@ -351,21 +345,25 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
           "dataType": "null",
+          "dateFormat": "DD.MM.YYYY",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.date_sent))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Datepicker",
           "identifier": "date_sent",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "Date Sent",
           "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
           "originalIdentifier": "date_sent",
           "position": 8,
-          "sourceData": null
+          "shortcuts": false,
+          "timePrecision": "minute"
         },
         "date_sign": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -373,21 +371,25 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
           "dataType": "null",
+          "dateFormat": "DD.MM.YYYY",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.date_sign))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Datepicker",
           "identifier": "date_sign",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
-          "label": "Date Sign",
+          "label": "Время подписания ЭЦП",
           "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
           "originalIdentifier": "date_sign",
           "position": 7,
-          "sourceData": null
+          "shortcuts": false,
+          "timePrecision": "minute"
         },
         "gosnum": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -401,10 +403,10 @@
           "iconAlign": "left",
           "identifier": "gosnum",
           "isCustomField": false,
-          "isDisabled": false,
+          "isDisabled": true,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Gosnum",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "gosnum",
@@ -419,18 +421,19 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.in_or_out))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Select",
           "identifier": "in_or_out",
           "isCustomField": false,
           "isDisabled": false,
+          "isFilterable": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "In Or Out",
           "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"ввод\",\n    \"value\": \"ввод в УГАДН\"\n  },\n  {\n    \"label\": \"вывод\",\n    \"value\": \"ввод из УГАДН\"\n  }\n]",
           "originalIdentifier": "in_or_out",
           "position": 2,
+          "serverSideFiltering": false,
           "sourceData": "вывод"
         },
         "it": {
@@ -470,7 +473,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "People",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "people",
@@ -492,7 +495,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Rem",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "rem",
@@ -511,36 +514,38 @@
           "iconAlign": "left",
           "identifier": "rf_mg",
           "isCustomField": false,
-          "isDisabled": false,
+          "isDisabled": true,
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
           "label": "Rf Mg",
+          "labelTextColor": "{{((sourceData, formData, fieldState) => ( currentRow[\"rf_mg\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "rf_mg",
           "position": 4,
           "sourceData": "РФ"
         },
         "type": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UGADN_update_form.sourceData, UGADN_update_form.formData, UGADN_update_form.fieldState)}}",
           "accessor": "type",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(UGADN_update_form.sourceData, UGADN_update_form.formData, UGADN_update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.type))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "defaultValue": "",
+          "fieldType": "Select",
           "identifier": "type",
           "isCustomField": false,
-          "isDisabled": false,
+          "isDisabled": true,
+          "isFilterable": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "Type",
           "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"ГУ\",\n    \"value\": \"ГУ\"\n  },\n  {\n    \"label\": \"УГАДН\",\n    \"value\": \"УГАДН\"\n  }\n]",
           "originalIdentifier": "type",
           "position": 1,
+          "serverSideFiltering": false,
           "sourceData": "УГАДН"
         },
         "ul": {
@@ -555,7 +560,7 @@
           "iconAlign": "left",
           "identifier": "ul",
           "isCustomField": false,
-          "isDisabled": false,
+          "isDisabled": true,
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
@@ -580,12 +585,11 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Vin",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "vin",
-          "position": 12,
-          "sourceData": null
+          "position": 12
         }
       },
       "dataType": "object",
@@ -610,7 +614,7 @@
   },
   "scrollContents": true,
   "showReset": true,
-  "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\")}}",
+  "sourceData": "{{_.omit(table_f_ug.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\")}}",
   "submitButtonLabel": "Update",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -618,10 +622,10 @@
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "PRIMARY"
   },
-  "title": "Update Row date_create: {{data_table.selectedRow.date_create}}",
-  "topRow": 0,
+  "title": "{{ table_f_ug.selectedRow && table_f_ug.selectedRow.date_create\n    ? `Редактирование подачи ${table_f_ug.selectedRow.gosnum.toLowerCase()} от ${new Date(table_f_ug.selectedRow.date_create).toLocaleDateString(\"ru-RU\")} (${table_f_ug.selectedRow.ul}) ${table_f_ug.selectedRow.}} –  ${table_f_ug.selectedRow.people}`\n    : \"Не выбрана строка\"\n}}\n",
+  "topRow": 1,
   "type": "JSON_FORM_WIDGET",
   "version": 1,
-  "widgetId": "y5cjzuxnb3",
-  "widgetName": "update_form"
+  "widgetId": "j7isik6v6c",
+  "widgetName": "UGADN_update_form"
 }

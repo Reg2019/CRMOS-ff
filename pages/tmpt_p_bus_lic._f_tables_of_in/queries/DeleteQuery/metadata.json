@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67d076563cc8d330969b1291_3c0dbf7a-25b1-40ff-841c-1fe7e9dbf5f1",
-  "id": "_p_bus_lic._f_tables_of_in_out_ugadn_csv_DeleteQuery",
+  "id": "tmpt_p_bus_lic._f_tables_of_in_DeleteQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "executeOnLoad": false,
     "name": "DeleteQuery",
-    "pageId": "_p_bus_lic._f_tables_of_in_out_ugadn_csv",
+    "pageId": "tmpt_p_bus_lic._f_tables_of_in",
     "userSetOnLoad": false
   }
 }

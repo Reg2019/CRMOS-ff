@@ -191,6 +191,9 @@
     },
     {
       "key": "primaryColumns.it.onOptionChange"
+    },
+    {
+      "key": "onRowSelected"
     }
   ],
   "enableClientSideSearch": false,
@@ -210,6 +213,7 @@
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
   "onPageChange": "{{\n            Select__p_bus_lic__f_tables_of_in_out1.run();\n            Total_record__p_bus_lic__f_tables_of_in_out1.run()\n          }}",
+  "onRowSelected": "{{showModal(UGADNEdit_Modal.name);}}",
   "onSearchTextChanged": "{{\n            Select__p_bus_lic__f_tables_of_in_out1.run();\n            Total_record__p_bus_lic__f_tables_of_in_out1.run()\n          }}",
   "onSort": "{{\n            Select__p_bus_lic__f_tables_of_in_out1.run();\n            Total_record__p_bus_lic__f_tables_of_in_out1.run()\n          }}",
   "parentColumnSpace": 16.3125,

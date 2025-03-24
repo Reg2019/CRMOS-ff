@@ -1,13 +1,13 @@
 {
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 37,
+  "borderRadius": "0px",
+  "bottomRow": 106,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
       "borderRadius": "0px",
-      "bottomRow": 240,
+      "bottomRow": 1000,
       "boxShadow": "none",
       "canExtend": true,
       "detachFromLayout": true,
@@ -18,42 +18,38 @@
       "isVisible": "true",
       "labelTextSize": "0.875rem",
       "leftColumn": 0,
-      "minHeight": 240,
+      "minHeight": 1002,
       "parentColumnSpace": 1,
-      "parentId": "i3whp03wf0",
+      "parentId": "cbefrmz55m",
       "parentRowSpace": 1,
       "rightColumn": 453.1875,
       "shouldScrollContents": false,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "zi8fjakv8o",
-      "widgetName": "Canvas3"
+      "widgetId": "y5gnkk8gg6",
+      "widgetName": "Canvas4Copy"
     }
   ],
   "detachFromLayout": true,
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "height": 240,
+  "height": 1002,
   "isLoading": false,
   "labelTextSize": "0.875rem",
-  "leftColumn": 21,
+  "leftColumn": 17,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "parentColumnSpace": 18.8828125,
   "parentId": "0",
   "parentRowSpace": 10,
-  "rightColumn": 45,
+  "rightColumn": 41,
   "shouldScrollContents": false,
-  "topRow": 13,
+  "topRow": 82,
   "type": "MODAL_WIDGET",
   "version": 2,
-  "widgetId": "i3whp03wf0",
-  "widgetName": "Delete_Modal",
-  "width": 456
+  "widgetId": "cbefrmz55m",
+  "widgetName": "UGADNEdit_Modal",
+  "width": 532
 }

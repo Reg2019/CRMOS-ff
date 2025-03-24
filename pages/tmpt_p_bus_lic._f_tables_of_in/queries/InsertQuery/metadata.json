@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67d076563cc8d330969b1291_e7428dd9-5077-4813-8175-d5c60882cda6",
-  "id": "_p_bus_lic._f_tables_of_in_out_ugadn_csv_InsertQuery",
+  "id": "tmpt_p_bus_lic._f_tables_of_in_InsertQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "executeOnLoad": false,
     "name": "InsertQuery",
-    "pageId": "_p_bus_lic._f_tables_of_in_out_ugadn_csv",
+    "pageId": "tmpt_p_bus_lic._f_tables_of_in",
     "userSetOnLoad": false
   }
 }

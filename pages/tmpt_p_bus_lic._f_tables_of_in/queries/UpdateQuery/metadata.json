@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67d076563cc8d330969b1291_ca257331-f7d9-4f93-a8e7-601ef06bbabe",
-  "id": "_p_bus_lic._f_tables_of_in_out_ugadn_csv_UpdateQuery",
+  "id": "tmpt_p_bus_lic._f_tables_of_in_UpdateQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "executeOnLoad": false,
     "name": "UpdateQuery",
-    "pageId": "_p_bus_lic._f_tables_of_in_out_ugadn_csv",
+    "pageId": "tmpt_p_bus_lic._f_tables_of_in",
     "userSetOnLoad": false
   }
 }

@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67d076563cc8d330969b1291_21de5284-73e7-45f6-b601-fe5479e5fd9b",
-  "id": "_p_bus_lic._f_tables_of_in_out_ugadn_csv_SelectQuery",
+  "id": "tmpt_p_bus_lic._f_tables_of_in_SelectQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "executeOnLoad": true,
     "name": "SelectQuery",
-    "pageId": "_p_bus_lic._f_tables_of_in_out_ugadn_csv",
+    "pageId": "tmpt_p_bus_lic._f_tables_of_in",
     "userSetOnLoad": true
   }
 }

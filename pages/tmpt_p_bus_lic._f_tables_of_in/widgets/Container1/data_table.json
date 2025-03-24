@@ -34,15 +34,14 @@
     "date_added_reestr",
     "it",
     "rem",
-    "vin",
-    "customColumn1"
+    "vin"
   ],
   "columnSizeMap": {
     "status": 75,
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1742816010671,
+  "columnUpdatedAt": 1742816086830,
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": "0",
   "delimiter": ",",
@@ -80,9 +79,6 @@
       "key": "derivedColumns.customColumn1.buttonLabel"
     },
     {
-      "key": "primaryColumns.customColumn1.buttonLabel"
-    },
-    {
       "key": "accentColor"
     },
     {
@@ -90,9 +86,6 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "primaryColumns.customColumn1.borderRadius"
     },
     {
       "key": "primaryColumns.date_create.computedValue"
@@ -136,16 +129,10 @@
   ],
   "dynamicPropertyPathList": [
     {
-      "key": "primaryColumns.customColumn1.borderRadius"
-    },
-    {
       "key": "tableData"
     }
   ],
   "dynamicTriggerPathList": [
-    {
-      "key": "primaryColumns.customColumn1.onClick"
-    },
     {
       "key": "onPageChange"
     },
@@ -180,30 +167,6 @@
   "parentRowSpace": 10,
   "primaryColumnId": "date_create",
   "primaryColumns": {
-    "customColumn1": {
-      "borderRadius": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-      "boxShadow": "none",
-      "buttonColor": "#DD4B34",
-      "buttonLabel": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( 'Delete'))}}",
-      "buttonLabelColor": "#FFFFFF",
-      "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "button",
-      "computedValue": "",
-      "enableFilter": true,
-      "enableSort": true,
-      "id": "customColumn1",
-      "index": 5,
-      "isCellVisible": true,
-      "isDerived": true,
-      "isDisabled": false,
-      "isVisible": true,
-      "label": "Delete",
-      "labelColor": "#FFFFFF",
-      "menuColor": "#03B365",
-      "onClick": "{{showModal('Delete_Modal')}}",
-      "sticky": "right",
-      "width": 150
-    },
     "date_added_reestr": {
       "alias": "date_added_reestr",
       "allowCellWrapping": false,

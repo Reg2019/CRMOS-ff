@@ -1,6 +1,7 @@
 {
   "gitSyncId": "67d076563cc8d330969b1291_ea5817d6-46ed-4f1e-93c1-19dba4fb3ae9",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "_p_bus_lic._f_tables_of_in_out_ugadn_csv",
-    "slug": "p-bus-lic-f-tables-of-in-out-ugadn-csv"
+    "name": "tmpt_p_bus_lic._f_tables_of_in",
+    "slug": "tmpt-p-bus-lic-f-tables-of-in"
   }
 }
