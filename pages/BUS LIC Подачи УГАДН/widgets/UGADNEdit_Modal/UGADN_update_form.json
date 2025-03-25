@@ -5,7 +5,7 @@
   "borderColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 69,
+  "bottomRow": 62,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -262,7 +262,7 @@
   "isVisible": "{{!!table_f_ug.selectedRow.date_create}}",
   "key": "h9l9ozr8op",
   "labelTextSize": "0.875rem",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{UGADNUpdateQuery.run(() => UGADN_SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
@@ -496,9 +496,10 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": false,
-          "label": "Rem",
+          "isVisible": true,
+          "label": "Комментарии к подаче",
           "labelTextSize": "0.875rem",
+          "maxChars": "1000",
           "originalIdentifier": "rem",
           "position": 11,
           "sourceData": ""
@@ -624,7 +625,7 @@
     "buttonVariant": "PRIMARY"
   },
   "title": "Редактирование подачи: {{table_f_ug.selectedRow.in_or_out}} {{table_f_ug.selectedRow.gosnum.toLowerCase()}} от {{ new Date(table_f_ug.selectedRow.date_create).toLocaleDateString(\"ru-RU\") }}\n({{table_f_ug.selectedRow.ul}}) – [{{table_f_ug.selectedRow.rf_mg}}] – {{table_f_ug.selectedRow.people}}\n",
-  "topRow": 1,
+  "topRow": 0,
   "type": "JSON_FORM_WIDGET",
   "version": 1,
   "widgetId": "j7isik6v6c",
