@@ -451,7 +451,7 @@
           "isFilterable": false,
           "isRequired": false,
           "isVisible": true,
-          "label": "It",
+          "label": "Ситуация в итоге",
           "labelTextSize": "0.875rem",
           "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
           "originalIdentifier": "it",
