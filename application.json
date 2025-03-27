@@ -73,6 +73,10 @@
     {
       "id": "LoginPage",
       "isDefault": false
+    },
+    {
+      "id": "People",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

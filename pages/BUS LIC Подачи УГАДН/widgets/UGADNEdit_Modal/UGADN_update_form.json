@@ -211,9 +211,6 @@
       "key": "schema.__root_schema__.children.date_added_reestr.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.it.defaultValue"
-    },
-    {
       "key": "schema.__root_schema__.children.it.borderRadius"
     },
     {
@@ -245,6 +242,12 @@
     },
     {
       "key": "schema.__root_schema__.children.date_added_reestr.maxDate"
+    },
+    {
+      "key": "schema.__root_schema__.children.it.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.it.defaultValue"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -443,7 +446,7 @@
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.it))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.it))(UGADN_update_form.sourceData, UGADN_update_form.formData, UGADN_update_form.fieldState)}}",
           "fieldType": "Select",
           "identifier": "it",
           "isCustomField": false,
@@ -453,7 +456,7 @@
           "isVisible": true,
           "label": "Ситуация в итоге",
           "labelTextSize": "0.875rem",
-          "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+          "options": "{{[\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n}}",
           "originalIdentifier": "it",
           "position": 0,
           "serverSideFiltering": false,
