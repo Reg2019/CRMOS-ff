@@ -1,12 +1,12 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "allowAddNewRow": true,
+  "allowAddNewRow": false,
   "animateLoading": true,
   "borderRadius": "0px",
   "bottomRow": 40,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
-  "cellBackground": "{{'#f2f2f2'}}\n",
+  "cellBackground": "\n",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -152,48 +152,6 @@
     },
     {
       "key": "tableData"
-    },
-    {
-      "key": "cellBackground"
-    },
-    {
-      "key": "primaryColumns.date_create.cellBackground"
-    },
-    {
-      "key": "primaryColumns.type.cellBackground"
-    },
-    {
-      "key": "primaryColumns.in_or_out.cellBackground"
-    },
-    {
-      "key": "primaryColumns.ul.cellBackground"
-    },
-    {
-      "key": "primaryColumns.rf_mg.cellBackground"
-    },
-    {
-      "key": "primaryColumns.gosnum.cellBackground"
-    },
-    {
-      "key": "primaryColumns.people.cellBackground"
-    },
-    {
-      "key": "primaryColumns.date_sign.cellBackground"
-    },
-    {
-      "key": "primaryColumns.date_sent.cellBackground"
-    },
-    {
-      "key": "primaryColumns.date_added_reestr.cellBackground"
-    },
-    {
-      "key": "primaryColumns.it.cellBackground"
-    },
-    {
-      "key": "primaryColumns.rem.cellBackground"
-    },
-    {
-      "key": "primaryColumns.vin.cellBackground"
     }
   ],
   "dynamicPropertyPathList": [
@@ -254,7 +212,7 @@
   "isSortable": true,
   "isVisible": "true",
   "isVisibleDownload": false,
-  "isVisibleFilters": true,
+  "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
   "key": "zba5qel0au",
@@ -275,7 +233,7 @@
       "alias": "date_added_reestr",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "date",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_added_reestr\"]))}}",
       "currencyCode": "USD",
@@ -310,7 +268,7 @@
       "alias": "date_create",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "date",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_create\"]))}}",
       "currencyCode": "USD",
@@ -346,7 +304,7 @@
       "alias": "date_sent",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "date",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_sent\"]))}}",
       "currencyCode": "USD",
@@ -381,7 +339,7 @@
       "alias": "date_sign",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "date",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_sign\"]))}}",
       "currencyCode": "USD",
@@ -416,7 +374,7 @@
       "alias": "gosnum",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "text",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gosnum\"]))}}",
       "currencyCode": "USD",
@@ -450,7 +408,7 @@
       "alias": "in_or_out",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "select",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"in_or_out\"]))}}",
       "currencyCode": "USD",
@@ -486,7 +444,7 @@
       "alias": "it",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "select",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"it\"]))}}",
       "currencyCode": "USD",
@@ -523,7 +481,7 @@
       "alias": "people",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "text",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"people\"]))}}",
       "currencyCode": "USD",
@@ -557,7 +515,7 @@
       "alias": "rem",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "text",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rem\"]))}}",
       "currencyCode": "USD",
@@ -591,7 +549,7 @@
       "alias": "rf_mg",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "text",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rf_mg\"]))}}",
       "currencyCode": "USD",
@@ -625,7 +583,7 @@
       "alias": "type",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "select",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"type\"]))}}",
       "currencyCode": "USD",
@@ -660,7 +618,7 @@
       "alias": "ul",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "text",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ul\"]))}}",
       "currencyCode": "USD",
@@ -694,7 +652,7 @@
       "alias": "vin",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{'#f2f2f2'}}\n",
+      "cellBackground": "\n",
       "columnType": "text",
       "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vin\"]))}}",
       "currencyCode": "USD",
@@ -735,7 +693,7 @@
   "topRow": 6,
   "totalRecordsCount": "{{Total_record__p_bus_lic__f_tables_of_in_out1.data[0].count}}",
   "type": "TABLE_WIDGET_V2",
-  "variant": "VARIANT3",
+  "variant": "DEFAULT",
   "version": 3,
   "verticalAlignment": "CENTER",
   "widgetId": "th1sn604bs",
