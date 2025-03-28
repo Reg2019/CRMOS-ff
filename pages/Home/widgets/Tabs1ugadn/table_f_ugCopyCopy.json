@@ -3,10 +3,10 @@
   "allowAddNewRow": true,
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 83,
+  "bottomRow": 40,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
-  "cellBackground": "",
+  "cellBackground": "{{'#f2f2f2'}}\n",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -44,7 +44,7 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1742910492559,
+  "columnUpdatedAt": 1743192121037,
   "columnWidthMap": {
     "date_create": 114,
     "gosnum": 115,
@@ -152,6 +152,48 @@
     },
     {
       "key": "tableData"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
+      "key": "primaryColumns.date_create.cellBackground"
+    },
+    {
+      "key": "primaryColumns.type.cellBackground"
+    },
+    {
+      "key": "primaryColumns.in_or_out.cellBackground"
+    },
+    {
+      "key": "primaryColumns.ul.cellBackground"
+    },
+    {
+      "key": "primaryColumns.rf_mg.cellBackground"
+    },
+    {
+      "key": "primaryColumns.gosnum.cellBackground"
+    },
+    {
+      "key": "primaryColumns.people.cellBackground"
+    },
+    {
+      "key": "primaryColumns.date_sign.cellBackground"
+    },
+    {
+      "key": "primaryColumns.date_sent.cellBackground"
+    },
+    {
+      "key": "primaryColumns.date_added_reestr.cellBackground"
+    },
+    {
+      "key": "primaryColumns.it.cellBackground"
+    },
+    {
+      "key": "primaryColumns.rem.cellBackground"
+    },
+    {
+      "key": "primaryColumns.vin.cellBackground"
     }
   ],
   "dynamicPropertyPathList": [
@@ -180,10 +222,10 @@
       "key": "primaryColumns.it.onOptionChange"
     },
     {
-      "key": "cellBackground"
+      "key": "tableData"
     },
     {
-      "key": "tableData"
+      "key": "cellBackground"
     }
   ],
   "dynamicTriggerPathList": [
@@ -223,17 +265,19 @@
   "onRowSelected": "{{showModal(UGADNEdit_Modal.name);}}",
   "onSearchTextChanged": "{{\n            SelectUGADN_View.run();\n            Total_record__p_bus_lic__f_tables_of_in_out1.run()\n          }}",
   "onSort": "{{\n            SelectUGADN_View.run();\n            Total_record__p_bus_lic__f_tables_of_in_out1.run()\n          }}",
+  "originalBottomRow": 41,
+  "originalTopRow": 7,
   "parentColumnSpace": 16.3125,
-  "parentId": "f8lh7f613s",
+  "parentId": "01btsh4i0a",
   "parentRowSpace": 10,
   "primaryColumns": {
     "date_added_reestr": {
       "alias": "date_added_reestr",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "date",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_added_reestr\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_added_reestr\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -266,9 +310,9 @@
       "alias": "date_create",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "date",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_create\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_create\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -302,9 +346,9 @@
       "alias": "date_sent",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "date",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_sent\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_sent\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -337,9 +381,9 @@
       "alias": "date_sign",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "date",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_sign\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_sign\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -372,9 +416,9 @@
       "alias": "gosnum",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "text",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gosnum\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gosnum\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -395,7 +439,7 @@
       "notation": "standard",
       "originalId": "gosnum",
       "sticky": "left",
-      "textColor": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "textColor": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -406,9 +450,9 @@
       "alias": "in_or_out",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "select",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"in_or_out\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"in_or_out\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -431,7 +475,7 @@
       "placeholderText": "",
       "resetFilterTextOnClose": false,
       "sticky": "",
-      "textColor": "{{(() => { const tableData = table_f_ugCopy.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"in_or_out\"] === \"вывод\" ? \"red\" : currentRow[\"in_or_out\"] === \"ввод\" ? \"green\" : \"black\" )) :  currentRow[\"in_or_out\"] === \"вывод\" ? \"red\" : currentRow[\"in_or_out\"] === \"ввод\" ? \"green\" : \"black\"  })()}}",
+      "textColor": "{{(() => { const tableData = table_f_ugCopyCopy.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"in_or_out\"] === \"вывод\" ? \"red\" : currentRow[\"in_or_out\"] === \"ввод\" ? \"green\" : \"black\" )) :  currentRow[\"in_or_out\"] === \"вывод\" ? \"red\" : currentRow[\"in_or_out\"] === \"ввод\" ? \"green\" : \"black\"  })()}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -442,9 +486,9 @@
       "alias": "it",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "select",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"it\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"it\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -466,7 +510,7 @@
       "notation": "standard",
       "onOptionChange": "{{ updateIt.run() }}",
       "originalId": "it",
-      "selectOptions": "{{(() => { const tableData = table_f_ugCopy.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n)) : [\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n })()}}",
+      "selectOptions": "{{(() => { const tableData = table_f_ugCopyCopy.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n)) : [\n  { label: \"🟡 – подано, ждём\", value: \"🟡 – подано, ждём\" },\n  { label: \"Ждём ЭЦП\", value: \"Ждём ЭЦП\" },\n  { label: \"✓ – подано – подтверждено\", value: \"✓ – подано – подтверждено\" },\n  { label: \"не готовы док\", value: \"не готовы док\" },\n  { label: \"???\", value: \"???\" },\n  { label: \"🟢 – считаем, что ок\", value: \"🟢 – считаем, что ок\" },\n  { label: \"??? 🔴\", value: \"??? 🔴\" },\n  { label: \"❌ – подали заново\", value: \"❌ – подали заново\" },\n  { label: \"🔴 – не подано\", value: \"🔴 – не подано\" }\n]\n })()}}",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -479,9 +523,9 @@
       "alias": "people",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "text",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"people\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"people\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -513,9 +557,9 @@
       "alias": "rem",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "text",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rem\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rem\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -547,9 +591,9 @@
       "alias": "rf_mg",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "text",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rf_mg\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rf_mg\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -581,9 +625,9 @@
       "alias": "type",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "select",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"type\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"type\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -603,7 +647,7 @@
       "label": "ТИП",
       "notation": "standard",
       "originalId": "type",
-      "selectOptions": "{{(() => { const tableData = table_f_ugCopy.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([\n  { label: \"ГУ\", value: \"ГУ\" },\n  { label: \"УГАДН\", value: \"УГАДН\" },\n]\n)) : [\n  { label: \"ГУ\", value: \"ГУ\" },\n  { label: \"УГАДН\", value: \"УГАДН\" },\n]\n })()}}",
+      "selectOptions": "{{(() => { const tableData = table_f_ugCopyCopy.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([\n  { label: \"ГУ\", value: \"ГУ\" },\n  { label: \"УГАДН\", value: \"УГАДН\" },\n]\n)) : [\n  { label: \"ГУ\", value: \"ГУ\" },\n  { label: \"УГАДН\", value: \"УГАДН\" },\n]\n })()}}",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -616,9 +660,9 @@
       "alias": "ul",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "text",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ul\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ul\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -650,9 +694,9 @@
       "alias": "vin",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{'#f2f2f2'}}\n",
       "columnType": "text",
-      "computedValue": "{{table_f_ugCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vin\"]))}}",
+      "computedValue": "{{table_f_ugCopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vin\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -688,12 +732,12 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{selectin_out_ugadn_not_ok.data}}",
   "textSize": "0.875rem",
-  "topRow": 4,
+  "topRow": 6,
   "totalRecordsCount": "{{Total_record__p_bus_lic__f_tables_of_in_out1.data[0].count}}",
   "type": "TABLE_WIDGET_V2",
   "variant": "VARIANT3",
   "version": 3,
   "verticalAlignment": "CENTER",
-  "widgetId": "n2u3j4hpu6",
-  "widgetName": "table_f_ugCopy"
+  "widgetId": "th1sn604bs",
+  "widgetName": "table_f_ugCopyCopy"
 }

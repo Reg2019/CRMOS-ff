@@ -1,14 +1,14 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 380,
+  "bottomRow": 41,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1060,
+      "bottomRow": 410,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -25,11 +25,11 @@
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "9ma3dsnru4",
+      "key": "uj66kh8xbc",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 1062,
+      "minHeight": 460,
       "minWidth": 450,
       "mobileBottomRow": 0,
       "mobileLeftColumn": 0,
@@ -37,7 +37,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "0nq3jft34k",
+      "parentId": "9az3l7fvvg",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "lw7sd2i2hj",
-      "widgetName": "Canvas2"
+      "widgetId": "dzy6t6mmoi",
+      "widgetName": "Canvas7"
     }
   ],
   "detachFromLayout": true,
@@ -56,16 +56,15 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
-  "height": 1062,
+  "dynamicHeight": "AUTO_HEIGHT",
+  "height": 410,
   "isCanvas": true,
   "isLoading": false,
-  "key": "xnkndz80gw",
+  "key": "npevy9jc43",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 24,
-  "minHeight": 490,
+  "minHeight": 410,
   "mobileBottomRow": 0,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 0,
@@ -80,7 +79,7 @@
   "topRow": 0,
   "type": "MODAL_WIDGET",
   "version": 2,
-  "widgetId": "0nq3jft34k",
-  "widgetName": "ModalShow",
-  "width": 917.6999999999999
+  "widgetId": "9az3l7fvvg",
+  "widgetName": "Modal1newPrint",
+  "width": 855.9499999999999
 }

@@ -26,6 +26,8 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
   "parentId": "sgpnqc88gn",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -38,5 +40,5 @@
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "ely187lhlr",
-  "widgetName": "Button5"
+  "widgetName": "Button5reset"
 }

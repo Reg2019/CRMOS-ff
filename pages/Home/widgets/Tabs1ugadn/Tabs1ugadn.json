@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 201,
+  "bottomRow": 188,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -191,7 +191,7 @@
       "widgetName": "Canvas14"
     }
   ],
-  "defaultTab": "Tab 1",
+  "defaultTab": "Не подтверждены",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -219,8 +219,8 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 160,
   "needsErrorInfo": false,
-  "originalBottomRow": 125,
-  "originalTopRow": 110,
+  "originalBottomRow": 189,
+  "originalTopRow": 97,
   "parentColumnSpace": 14.625,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -261,9 +261,9 @@
       "widgetId": "7qilbvovo5"
     }
   },
-  "topRow": 110,
+  "topRow": 97,
   "type": "TABS_WIDGET",
   "version": 3,
   "widgetId": "mypg2m0ka2",
-  "widgetName": "Tabs1"
+  "widgetName": "Tabs1ugadn"
 }

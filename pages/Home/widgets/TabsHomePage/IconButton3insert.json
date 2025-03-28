@@ -30,7 +30,7 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Modal1.name).then(() => {\n  closeModal('');\n}).catch(() => {\n  showAlert('not\\ninserted', 'warning');\n});}}",
+  "onClick": "{{showModal(Modal1newPrint.name).then(() => {\n  closeModal('');\n}).catch(() => {\n  showAlert('not\\ninserted', 'warning');\n});}}",
   "parentColumnSpace": 13.361083984375,
   "parentId": "sqdwzb0nho",
   "parentRowSpace": 10,
