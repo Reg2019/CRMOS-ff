@@ -25,7 +25,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6ko231ob5a",
-  "leftColumn": 39,
+  "leftColumn": 59,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 39,
@@ -38,10 +38,10 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 43,
+  "rightColumn": 63,
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "zz6h205fi4",
-  "widgetName": "IconButton6"
+  "widgetName": "IconButton6exit"
 }

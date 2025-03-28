@@ -1,0 +1,4 @@
+SELECT * FROM _p_bus_lic."_f_tables_of_in_out_ugadn_csv" 
+WHERE it != '√  - подано — подтвердили'
+ORDER BY date_create DESC
+LIMIT 100;

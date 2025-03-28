@@ -1,18 +1,15 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "0.375rem",
   "bottomRow": 51,
   "boxShadow": "none",
-  "buttonVariant": "PRIMARY",
+  "buttonVariant": "TERTIARY",
   "childStylesheet": {
     "button": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     }
   },
   "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
     {
       "key": "groupButtons.groupButton1.buttonColor"
     },
@@ -139,12 +136,14 @@
           "widgetId": "m1e6d1k5ze"
         },
         "menuItemv38tj18ahj": {
+          "backgroundColor": "",
+          "iconAlign": "left",
           "id": "menuItemv38tj18ahj",
           "index": 0,
           "isDisabled": false,
           "isVisible": true,
-          "label": "_p_bus_lic__f_tables_of_in_out_ugadn_csv",
-          "onClick": "{{navigateTo('_f_tables_of_in_out_ugadn_csv', {}, 'SAME_WINDOW');}}",
+          "label": "Подачи УГАДН",
+          "onClick": "{{navigateTo('BUS LIC Подачи УГАДН', {}, 'SAME_WINDOW');}}",
           "widgetId": "em0uy5yesr"
         }
       },
@@ -270,7 +269,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "lte410aydl",
-  "leftColumn": 0,
+  "leftColumn": 24,
   "minWidth": 450,
   "mobileBottomRow": 25,
   "mobileLeftColumn": 9,
@@ -278,17 +277,17 @@
   "mobileTopRow": 21,
   "needsErrorInfo": false,
   "orientation": "vertical",
-  "originalBottomRow": 52,
-  "originalTopRow": 35,
+  "originalBottomRow": 51,
+  "originalTopRow": 34,
   "parentColumnSpace": 14.59375,
   "parentId": "ca0ovjzo9j",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 41,
   "topRow": 34,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "xzikmpdn8j",
-  "widgetName": "ButtonGroup1"
+  "widgetName": "ButtonGroup1mainMenu"
 }

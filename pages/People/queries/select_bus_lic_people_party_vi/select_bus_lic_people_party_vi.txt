@@ -1,0 +1,4 @@
+SELECT * FROM _p_bus_lic_people."party_view" LIMIT 1000;
+
+
+

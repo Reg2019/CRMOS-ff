@@ -389,7 +389,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "showInlineEditingOptionDropdown": true,
-  "tableData": "{{select_p_bus_lic_people_.data}}",
+  "tableData": "{{select_bus_lic_people_party_vi.data}}",
   "textSize": "0.875rem",
   "topRow": 1,
   "totalRecordsCount": 0,
