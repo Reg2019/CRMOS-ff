@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 149,
+  "bottomRow": 110,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 141,
   "needsErrorInfo": false,
-  "originalBottomRow": 149,
-  "originalTopRow": 145,
+  "originalBottomRow": 110,
+  "originalTopRow": 106,
   "overflow": "NONE",
   "parentColumnSpace": 14.625,
   "parentId": "0",
@@ -43,7 +43,7 @@
   "text": "Подачи УГАДН",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 145,
+  "topRow": 106,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

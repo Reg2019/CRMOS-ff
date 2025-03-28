@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "67d076563cc8d330969b1291_24b23a48-3e89-4a0e-827c-c8f3a5b83fb4",
-  "id": "Home_selectin_out_ugadn",
+  "gitSyncId": "67d076563cc8d330969b1291_e188dcb5-31d0-4901-b45f-9f454486fe62",
+  "id": "Home_selectin_out_ugadn_ok",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM _p_bus_lic.\"_f_tables_of_in_out_ugadn_csv\" LIMIT 100;",
+      "body": "SELECT * FROM _p_bus_lic.\"_f_tables_of_in_out_ugadn_csv\" \nWHERE it = '√  - подано — подтвердили'\nORDER BY date_create DESC\nLIMIT 100;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -23,8 +23,8 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
-    "name": "selectin_out_ugadn",
+    "executeOnLoad": true,
+    "name": "selectin_out_ugadn_ok",
     "pageId": "Home",
     "userSetOnLoad": false
   }
