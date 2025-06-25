@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 9,
   "disableLink": true,
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -37,8 +37,8 @@
   "mobileLeftColumn": 14,
   "mobileRightColumn": 30,
   "mobileTopRow": 0,
-  "originalBottomRow": 13,
-  "originalTopRow": 9,
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 7.949260711669922,
   "parentId": "ejnk16esgo",
@@ -59,7 +59,7 @@
   "text": "{{tbl_customers.selectedRow.email}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 4,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

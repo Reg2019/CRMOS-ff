@@ -23,7 +23,7 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "fetch_all_orders",
     "pageId": "Dashboard",
     "userSetOnLoad": false

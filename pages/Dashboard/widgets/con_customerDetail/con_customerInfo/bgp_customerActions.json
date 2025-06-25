@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "bottomRow": 26,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -98,8 +98,8 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 8,
   "orientation": "horizontal",
-  "originalBottomRow": 17,
-  "originalTopRow": 13,
+  "originalBottomRow": 26,
+  "originalTopRow": 22,
   "parentColumnSpace": 7.794189453125,
   "parentId": "ejnk16esgo",
   "parentRowSpace": 10,
@@ -113,7 +113,7 @@
   "tags": [
     "Buttons"
   ],
-  "topRow": 14,
+  "topRow": 22,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "5n2uz2qlbs",
