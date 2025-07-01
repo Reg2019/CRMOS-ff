@@ -44,9 +44,9 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": false,
     "name": "getCarbonePDF",
     "pageId": "_test_carbone_2025-03",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

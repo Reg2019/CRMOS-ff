@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "updateIt",
     "pageId": "BUS LIC Подачи УГАДН",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

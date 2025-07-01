@@ -49,9 +49,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "printCarbone",
     "pageId": "_test_carbone_2025-03",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

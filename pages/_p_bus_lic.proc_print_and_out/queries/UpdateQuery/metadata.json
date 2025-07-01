@@ -22,9 +22,9 @@
       "name": "bsq24-v2",
       "pluginId": "postgres-plugin"
     },
-    "executeOnLoad": false,
     "name": "UpdateQuery",
     "pageId": "_p_bus_lic.proc_print_and_out",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

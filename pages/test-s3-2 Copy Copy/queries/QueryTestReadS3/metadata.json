@@ -79,9 +79,9 @@
       "pluginId": "amazons3-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
     "name": "QueryTestReadS3",
     "pageId": "test-s3-2 Copy Copy",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

@@ -22,9 +22,9 @@
       "name": "bsq24-v2",
       "pluginId": "postgres-plugin"
     },
-    "executeOnLoad": true,
     "name": "UGADN_SelectQuery",
     "pageId": "BUS LIC Подачи УГАДН",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

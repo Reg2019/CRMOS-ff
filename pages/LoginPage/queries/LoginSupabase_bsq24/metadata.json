@@ -46,9 +46,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "LoginSupabase_bsq24",
     "pageId": "LoginPage",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

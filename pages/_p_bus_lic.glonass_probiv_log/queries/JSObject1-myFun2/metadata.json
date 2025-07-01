@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSObject1.myFun2",
     "name": "myFun2",
     "pageId": "_p_bus_lic.glonass_probiv_log",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

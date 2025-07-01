@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "name": "Total_record__p_bus_lic__f_tables_of_in_out1",
     "pageId": "BUS LIC Подачи УГАДН",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }
